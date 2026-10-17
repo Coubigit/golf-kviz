@@ -1,170 +1,170 @@
 {
- "version": 1,
- "source": "Pravidla golfu platná od ledna 2023 (český překlad ČGF) – otázky jsou vlastní, nejde o oficiální text",
- "topics": {
-  "etiketa": "Etiketa a bezpečnost",
-  "odpaliste": "Odpaliště",
-  "oblasti": "Oblasti hřiště",
-  "vystroj": "Výstroj",
-  "hledani": "Hledání a ztracený míč",
-  "mimo-hriste": "Mimo hřiště a provizorní míč",
-  "trestne-oblasti": "Trestné oblasti",
-  "nehratelny": "Nehratelný míč",
-  "uleva": "Úlevy a spouštění",
-  "jamkoviste": "Jamkoviště",
-  "bankr": "Bankry",
-  "hra": "Hra, skóre a tresty"
- },
- "questions": [
-  {
-   "id": "q001",
-   "topic": "etiketa",
-   "difficulty": 1,
-   "rule": "Pravidlo 1.2a",
-   "question": "Tvůj míč letí směrem, kde může zasáhnout jiné golfisty. Co máš udělat?",
-   "options": [
-    "Ihned hlasitě zakřičet varování, tradičně „fór“",
-    "Nic, golfisté na hřišti musí dávat pozor sami",
-    "Zamávat holí, až míč dopadne",
-    "Omluvit se, až dojdeš k jejich skupině"
-   ],
-   "answer": 0,
-   "explanation": "Ohleduplnost k ostatním zahrnuje bezpečnost: když hrozí zásah, okamžitě varuj zvoláním „fór“."
+  "version": 1,
+  "source": "Pravidla golfu platná od ledna 2023 (český překlad ČGF) – otázky jsou vlastní, nejde o oficiální text",
+  "topics": {
+    "etiketa": "Etiketa a bezpečnost",
+    "odpaliste": "Odpaliště",
+    "oblasti": "Oblasti hřiště",
+    "vystroj": "Výstroj",
+    "hledani": "Hledání a ztracený míč",
+    "mimo-hriste": "Mimo hřiště a provizorní míč",
+    "trestne-oblasti": "Trestné oblasti",
+    "nehratelny": "Nehratelný míč",
+    "uleva": "Úlevy a spouštění",
+    "jamkoviste": "Jamkoviště",
+    "bankr": "Bankry",
+    "hra": "Hra, skóre a tresty"
   },
-  {
-   "id": "q002",
-   "topic": "hledani",
-   "difficulty": 1,
-   "rule": "Pravidlo 18.2a(1)",
-   "question": "Jak dlouho smíš hledat svůj míč, než je ztracen?",
-   "options": [
-    "3 minuty od okamžiku, kdy ho ty nebo tvůj nosič začnete hledat",
-    "5 minut",
-    "3 minuty od ráně",
-    "Dokud ho nenajdeš"
-   ],
-   "answer": 0,
-   "explanation": "Od roku 2019 jsou na hledání 3 minuty."
-  },
-  {
-   "id": "q003",
-   "topic": "mimo-hriste",
-   "difficulty": 1,
-   "rule": "Pravidlo 18.2b",
-   "question": "Odpálíš a míč skončí za bílými kolíky (mimo hřiště). Jak pokračuješ?",
-   "options": [
-    "S jednou trestnou ranou znovu z odpaliště, hraješ tedy třetí ránu",
-    "Dropneš u místa, kde míč opustil hřiště, a hraješ druhou ránu",
-    "Bez trestu znovu z odpaliště",
-    "Dvě trestné rány a dropneš u hranice"
-   ],
-   "answer": 0,
-   "explanation": "Míč mimo hřiště = ztráta rány a vzdálenosti: trestná rána a znovu z odpaliště (z týčka). Další rána je tvá třetí."
-  },
-  {
-   "id": "q004",
-   "topic": "trestne-oblasti",
-   "difficulty": 2,
-   "rule": "Pravidlo 17.1d",
-   "question": "Tvůj míč je ve ŽLUTÉ trestné oblasti. Jaké máš možnosti úlevy (s trestnou ranou)?",
-   "options": [
-    "Ztráta rány a vzdálenosti, nebo úleva dozadu po spojnici",
-    "Ztráta rány a vzdálenosti, úleva dozadu a úleva do strany",
-    "Jen úleva do strany",
-    "Jen dropnutí na opačném břehu"
-   ],
-   "answer": 0,
-   "explanation": "Žlutá trestná oblast: dvě možnosti. Úleva do strany (dvě délky hole) je navíc jen u červené."
-  },
-  {
-   "id": "q005",
-   "topic": "mimo-hriste",
-   "difficulty": 2,
-   "rule": "Pravidlo 18.3b",
-   "question": "Po odpalu do lesa řekneš jen „zahraju ještě jeden“ a odpálíš. Původní míč pak najdeš na hřišti. Co platí?",
-   "options": [
-    "Druhý míč je míč ve hře se ztrátou rány a vzdálenosti, původní už hrát nesmíš",
-    "Můžeš hrát původní míč bez trestu",
-    "Vybereš si, který míč se počítá",
-    "Druhý míč byl provizorní, protože jsi to myslel"
-   ],
-   "answer": 0,
-   "explanation": "Bez řádného oznámení se míč zahraný z místa předchozí rány stává míčem ve hře se ztrátou rány a vzdálenosti."
-  },
-  {
-   "id": "q006",
-   "topic": "vystroj",
-   "difficulty": 2,
-   "rule": "Pravidlo 4.1b",
-   "question": "Ve hře na rány zjistíš na 3. jamce, že máš v bagu 15 holí. Jaký je trest?",
-   "options": [
-    "Čtyři trestné rány (po dvou na 1. a 2. jamce) a nadbytečnou hůl musíš vyřadit ze hry",
-    "Diskvalifikace",
-    "Dvě trestné rány za každou odehranou jamku bez limitu",
-    "Jedna trestná rána"
-   ],
-   "answer": 0,
-   "explanation": "Všeobecný trest za každou jamku s porušením, nejvýše ale 4 rány za kolo. Hůl musíš před další ranou zřetelně vyřadit ze hry."
-  },
-  {
-   "id": "q007",
-   "topic": "mimo-hriste",
-   "difficulty": 3,
-   "rule": "Pravidlo 18.3c(2)",
-   "question": "Tvůj provizorní míč skončí na fervej blíž jamce, než kde asi leží původní míč. Bez hledání ho zahraješ. Pak najdeš původní míč (hledání by trvalo jen 1 minutu). Co platí?",
-   "options": [
-    "Provizorní míč se ranou z místa blíže jamce stal míčem ve hře, původní už hrát nesmíš",
-    "Musíš se vrátit k původnímu míči bez trestu",
-    "Původní míč hraješ s dvěma trestnými ranami",
-    "Vybereš si"
-   ],
-   "answer": 0,
-   "explanation": "Ranou z místa bližšího jamce, než je odhadovaná poloha původního míče, se provizorní míč stává míčem ve hře."
-  },
-  {
-   "id": "q008",
-   "topic": "nehratelny",
-   "difficulty": 3,
-   "rule": "Pravidlo 19.3",
-   "question": "Míč je v bankru a je nehratelný. Která možnost ti dovolí dostat se ven z bankru s JEDNOU trestnou ranou?",
-   "options": [
-    "Ztráta rány a vzdálenosti (hra z místa předchozí rány)",
-    "Úleva do strany",
-    "Úleva dozadu po spojnici",
-    "Žádná, ven jen se dvěma ranami"
-   ],
-   "answer": 0,
-   "explanation": "S jednou ranou se z bankru dostaneš jen postupem se ztrátou rány a vzdálenosti. Úleva dozadu mimo bankr stojí dvě rány."
-  },
-  {
-   "id": "q009",
-   "topic": "hledani",
-   "difficulty": 3,
-   "rule": "Pravidlo 18.2a(1)",
-   "question": "Spoluhráč najde míč 2 minuty 50 vteřin po začátku hledání. Než k němu dojdeš a identifikuješ ho, uplynou 3 minuty 20 vteřin. Je míč ztracen?",
-   "options": [
-    "Ne, na identifikaci nalezeného míče máš přiměřený čas i po uplynutí 3 minut",
-    "Ano, 3 minuty uplynuly",
-    "Ano, pokud ho nenašel sám hráč",
-    "Rozhodne zapisovatel"
-   ],
-   "answer": 0,
-   "explanation": "Míč nalezený v limitu musíš bez prodlení identifikovat. Na to (včetně cesty k němu) máš přiměřený čas i po 3 minutách."
-  },
-  {
-   "id": "q010",
-   "topic": "odpaliste",
-   "difficulty": 3,
-   "rule": "Pravidlo 6.2b(6)",
-   "question": "Z odpaliště se při odpalu úplně mineš a míč zůstane na týčku. Jak můžeš pokračovat?",
-   "options": [
-    "Rána se počítá. Míč smíš beztrestně zvednout a znovu nasadit kdekoli na odpališti",
-    "Rána se nepočítá, protože jsi míč netrefil",
-    "Musíš hrát míč z týčka přesně tak, jak leží",
-    "Jedna trestná rána a znovu nasazuješ"
-   ],
-   "answer": 0,
-   "explanation": "Švih s úmyslem trefit je rána, i když mine. Míč ve hře na odpališti lze beztrestně zvednout a hrát odkudkoli z odpaliště."
-  }
- ]
+  "questions": [
+    {
+      "id": "q001",
+      "topic": "etiketa",
+      "difficulty": 1,
+      "rule": "Pravidlo 1.2a",
+      "question": "Tvůj míč letí směrem, kde může zasáhnout jiné golfisty. Co máš udělat?",
+      "options": [
+        "Ihned hlasitě zakřičet varování, tradičně „fór“",
+        "Nic, golfisté na hřišti musí dávat pozor sami",
+        "Zamávat holí, až míč dopadne",
+        "Omluvit se, až dojdeš k jejich skupině"
+      ],
+      "answer": 0,
+      "explanation": "Ohleduplnost k ostatním zahrnuje bezpečnost: když hrozí zásah, okamžitě varuj zvoláním „fór“."
+    },
+    {
+      "id": "q002",
+      "topic": "hledani",
+      "difficulty": 1,
+      "rule": "Pravidlo 18.2a(1)",
+      "question": "Jak dlouho smíš hledat svůj míč, než je ztracen?",
+      "options": [
+        "3 minuty od okamžiku, kdy ho ty nebo tvůj nosič začnete hledat",
+        "5 minut",
+        "3 minuty od odehrání rány",
+        "Dokud ho nenajdeš"
+      ],
+      "answer": 0,
+      "explanation": "Na hledání máš 3 minuty od chvíle, kdy ty nebo tvůj nosič začnete hledat. Pak je míč ztracen."
+    },
+    {
+      "id": "q003",
+      "topic": "mimo-hriste",
+      "difficulty": 1,
+      "rule": "Pravidlo 18.2b",
+      "question": "Odpálíš a míč skončí za bílými kolíky (mimo hřiště). Jak pokračuješ?",
+      "options": [
+        "S jednou trestnou ranou znovu z odpaliště, hraješ tedy třetí ránu",
+        "Spustíš míč u místa, kde opustil hřiště, a hraješ druhou ránu",
+        "Bez trestu znovu z odpaliště",
+        "Dvě trestné rány a spustíš míč u hranice"
+      ],
+      "answer": 0,
+      "explanation": "Za míč mimo hřiště platíš ztrátou rány a vzdálenosti: připočteš si trestnou ránu a hraješ znovu z odpaliště. Další rána je tvá třetí."
+    },
+    {
+      "id": "q004",
+      "topic": "trestne-oblasti",
+      "difficulty": 2,
+      "rule": "Pravidlo 17.1d",
+      "question": "Tvůj míč je ve ŽLUTÉ trestné oblasti. Jaké máš možnosti úlevy (s trestnou ranou)?",
+      "options": [
+        "Ztráta rány a vzdálenosti, nebo úleva dozadu po spojnici",
+        "Ztráta rány a vzdálenosti, úleva dozadu a úleva do strany",
+        "Jen úleva do strany",
+        "Jen spuštění míče na opačném břehu"
+      ],
+      "answer": 0,
+      "explanation": "Žlutá trestná oblast: dvě možnosti. Úleva do strany (dvě délky hole) je navíc jen u červené."
+    },
+    {
+      "id": "q005",
+      "topic": "mimo-hriste",
+      "difficulty": 2,
+      "rule": "Pravidlo 18.3b",
+      "question": "Po odpalu do lesa řekneš jen „zahraju ještě jeden“ a odpálíš. Původní míč pak najdeš na hřišti. Co platí?",
+      "options": [
+        "Druhý míč je míč ve hře se ztrátou rány a vzdálenosti, původní už hrát nesmíš",
+        "Můžeš hrát původní míč bez trestu",
+        "Vybereš si, který míč se počítá",
+        "Druhý míč je provizorní, protože jsi to tak myslel"
+      ],
+      "answer": 0,
+      "explanation": "Provizorní míč musíš předem jasně oznámit. Bez toho se druhý míč zahraný z místa předchozí rány stává míčem ve hře se ztrátou rány a vzdálenosti."
+    },
+    {
+      "id": "q006",
+      "topic": "vystroj",
+      "difficulty": 2,
+      "rule": "Pravidlo 4.1b",
+      "question": "Ve hře na rány zjistíš na 3. jamce, že máš v bagu 15 holí. Jaký je trest?",
+      "options": [
+        "Čtyři trestné rány (po dvou na 1. a 2. jamce) a nadbytečnou hůl musíš vyřadit ze hry",
+        "Diskvalifikace",
+        "Dvě trestné rány za každou odehranou jamku bez limitu",
+        "Jedna trestná rána"
+      ],
+      "answer": 0,
+      "explanation": "Všeobecný trest za každou jamku s porušením, nejvýše ale 4 rány za kolo. Hůl musíš před další ranou zřetelně vyřadit ze hry."
+    },
+    {
+      "id": "q007",
+      "topic": "mimo-hriste",
+      "difficulty": 3,
+      "rule": "Pravidlo 18.3c(2)",
+      "question": "Tvůj provizorní míč skončí na fairway blíž jamce, než kde asi leží původní míč. Bez hledání ho zahraješ. Pak najdeš původní míč, hledání by trvalo jen minutu. Co platí?",
+      "options": [
+        "Provizorní míč se ranou z místa blíže jamce stal míčem ve hře, původní už hrát nesmíš",
+        "Musíš se vrátit k původnímu míči bez trestu",
+        "Původní míč hraješ s dvěma trestnými ranami",
+        "Vybereš si"
+      ],
+      "answer": 0,
+      "explanation": "Ranou z místa bližšího jamce, než je odhadovaná poloha původního míče, se provizorní míč stává míčem ve hře."
+    },
+    {
+      "id": "q008",
+      "topic": "nehratelny",
+      "difficulty": 3,
+      "rule": "Pravidlo 19.3",
+      "question": "Míč v bankru prohlásíš za nehratelný. Která možnost tě dostane ven z bankru s JEDNOU trestnou ranou?",
+      "options": [
+        "Ztráta rány a vzdálenosti (hra z místa předchozí rány)",
+        "Úleva do strany",
+        "Úleva dozadu po spojnici",
+        "Žádná, ven jen se dvěma ranami"
+      ],
+      "answer": 0,
+      "explanation": "S jednou trestnou ranou se z bankru dostaneš jen postupem se ztrátou rány a vzdálenosti. Úleva dozadu mimo bankr stojí dvě trestné rány."
+    },
+    {
+      "id": "q009",
+      "topic": "hledani",
+      "difficulty": 3,
+      "rule": "Pravidlo 18.2a(1)",
+      "question": "Spoluhráč najde míč 2 minuty 50 vteřin po začátku hledání. Než k němu dojdeš a identifikuješ ho, uplynou 3 minuty 20 vteřin. Je míč ztracen?",
+      "options": [
+        "Ne, na identifikaci nalezeného míče máš přiměřený čas i po uplynutí 3 minut",
+        "Ano, 3 minuty uplynuly",
+        "Ano, pokud ho nenašel sám hráč",
+        "Rozhodne zapisovatel"
+      ],
+      "answer": 0,
+      "explanation": "Míč nalezený v limitu musíš bez prodlení identifikovat. Na to (včetně cesty k němu) máš přiměřený čas i po 3 minutách."
+    },
+    {
+      "id": "q010",
+      "topic": "odpaliste",
+      "difficulty": 3,
+      "rule": "Pravidlo 6.2b(6)",
+      "question": "Z odpaliště se při odpalu úplně mineš a míč zůstane na týčku. Jak můžeš pokračovat?",
+      "options": [
+        "Rána se počítá. Míč smíš beztrestně zvednout a znovu nasadit kdekoli na odpališti",
+        "Rána se nepočítá, protože jsi míč netrefil",
+        "Musíš hrát míč z týčka přesně tak, jak leží",
+        "Jedna trestná rána a znovu nasazuješ"
+      ],
+      "answer": 0,
+      "explanation": "Švih s úmyslem trefit je rána, i když mine. Míč ve hře na odpališti lze beztrestně zvednout a hrát odkudkoli z odpaliště."
+    }
+  ]
 }
