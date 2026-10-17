@@ -54,9 +54,9 @@
       "question": "Odpálíš a míč skončí za bílými kolíky (mimo hřiště). Jak pokračuješ?",
       "options": [
         "S jednou trestnou ranou znovu z odpaliště, hraješ tedy třetí ránu",
-        "Spustíš míč u místa, kde opustil hřiště, a hraješ druhou ránu",
+        "Dropneš u místa, kde míč opustil hřiště, a hraješ druhou ránu",
         "Bez trestu znovu z odpaliště",
-        "Dvě trestné rány a spustíš míč u hranice"
+        "Dvě trestné rány a dropneš u hranice"
       ],
       "answer": 0,
       "explanation": "Za míč mimo hřiště platíš ztrátou rány a vzdálenosti: připočteš si trestnou ránu a hraješ znovu z odpaliště. Další rána je tvá třetí."
@@ -71,7 +71,7 @@
         "Ztráta rány a vzdálenosti, nebo úleva dozadu po spojnici",
         "Ztráta rány a vzdálenosti, úleva dozadu a úleva do strany",
         "Jen úleva do strany",
-        "Jen spuštění míče na opačném břehu"
+        "Jen dropnutí na opačném břehu"
       ],
       "answer": 0,
       "explanation": "Žlutá trestná oblast: dvě možnosti. Úleva do strany (dvě délky hole) je navíc jen u červené."
