@@ -57,6 +57,7 @@
     $("q-topic").textContent = topics[item.q.topic] || item.q.topic;
     $("progress-bar").style.width = (idx / quiz.length * 100) + "%";
     $("q-text").textContent = item.q.question;
+    var qi = $("q-img"); if (item.q.image) { qi.src = item.q.image; qi.alt = item.q.imageAlt || ""; qi.hidden = false; } else { qi.hidden = true; qi.removeAttribute("src"); }
     var box = $("q-options"); box.innerHTML = "";
     item.opts.forEach(function (o, i) {
       var b = document.createElement("button"); b.className = "opt"; b.type = "button";

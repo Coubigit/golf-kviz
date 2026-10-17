@@ -1,3 +1,4 @@
+[hidden]{display:none!important}
 :root{--bg:#f3f1ec;--card:#fbfaf7;--ink:#2e322f;--muted:#6f746e;--accent:#5f6f5c;--accent-ink:#fff;--line:#dcd8cf;--ok:#6b8a67;--ok-bg:#e6ede3;--bad:#a46a5f;--bad-bg:#f2e4e0;--radius:14px}
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -44,3 +45,5 @@ h2{font-size:1.15rem;line-height:1.4;margin:.6em 0 1em}
 
 .fb-img{display:block;width:100%;height:auto;margin:10px 0 4px;border-radius:10px}
 .fb-img[hidden]{display:none}
+.q-img{display:block;width:100%;height:auto;margin:4px 0 12px;border-radius:12px}
+.q-img[hidden]{display:none}
