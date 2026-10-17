@@ -74,7 +74,9 @@
         "Jen dropnutí na opačném břehu"
       ],
       "answer": 0,
-      "explanation": "Žlutá trestná oblast: dvě možnosti. Úleva do strany (dvě délky hole) je navíc jen u červené."
+      "explanation": "Žlutá trestná oblast: dvě možnosti. Úleva do strany (dvě délky hole) je navíc jen u červené.",
+      "explanationImage": "img/q004-zluta-oblast.jpg",
+      "explanationImageAlt": "Úleva ze žluté trestné oblasti: místo předchozí rány (1) a úleva dozadu po spojnici přes místo vstupu do vody (2), obojí s trestnou ranou."
     },
     {
       "id": "q005",

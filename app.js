@@ -81,6 +81,7 @@
     $("feedback").className = "feedback " + (ok ? "ok" : "bad");
     $("fb-text").textContent = item.q.explanation;
     $("fb-rule").textContent = item.q.rule;
+    var fi = $("fb-img"); if (item.q.explanationImage) { fi.src = item.q.explanationImage; fi.alt = item.q.explanationImageAlt || ""; fi.hidden = false; } else { fi.hidden = true; fi.removeAttribute("src"); }
     $("feedback").hidden = false;
     $("btn-next").textContent = idx === quiz.length - 1 ? "Zobrazit výsledek" : "Další otázka";
     $("btn-next").hidden = false; $("btn-next").focus();

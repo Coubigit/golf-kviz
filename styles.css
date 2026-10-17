@@ -41,3 +41,6 @@ h2{font-size:1.15rem;line-height:1.4;margin:.6em 0 1em}
 .ad-slot{max-width:640px;margin:10px auto;min-height:90px;border:1px dashed var(--line);border-radius:10px}
 .footer{max-width:640px;margin:0 auto;padding:16px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line)}
 .footer a{color:var(--accent)}
+
+.fb-img{display:block;width:100%;height:auto;margin:10px 0 4px;border-radius:10px}
+.fb-img[hidden]{display:none}
