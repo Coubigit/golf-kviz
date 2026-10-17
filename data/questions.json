@@ -165,7 +165,7 @@
         "Rána se počítá. Míč smíš beztrestně zvednout a znovu nasadit kdekoli na odpališti",
         "Rána se nepočítá, protože jsi míč netrefil",
         "Musíš hrát míč z týčka přesně tak, jak leží",
-        "Jedna trestná rána a znovu nasazuješ"
+        "Rána se nepočítá, ale připíšeš si jednu trestnou ránu"
       ],
       "answer": 0,
       "explanation": "Švih s úmyslem trefit je rána, i když mine. Míč ve hře na odpališti lze beztrestně zvednout a hrát odkudkoli z odpaliště."
