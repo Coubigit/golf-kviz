@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kvíz z pravidel golfu</title>
+<meta name="description" content="Neoficiální kvíz z pravidel golfu v češtině – trénink jako na zelenou kartu.">
+<meta name="theme-color" content="#5f6f5c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><span class="logo">⛳</span> Kvíz z pravidel golfu</header>
+
+<!-- Reklamní slot (zatím vypnuto v config.js) -->
+<div class="ad-slot" data-ad-slot="top" hidden></div>
+
+<main id="app">
+  <section id="screen-start" class="screen">
+    <h1>Zkouška jako na zelenou kartu</h1>
+    <p class="lead">Náhodný mix otázek z Pravidel golfu. Po každé odpovědi uvidíš vysvětlení a číslo pravidla.</p>
+    <fieldset class="hcp">
+      <legend>Tvůj hendikep</legend>
+      <div id="hcp-options" class="hcp-options"></div>
+    </fieldset>
+    <button id="btn-start" class="btn primary">Začít test</button>
+    <p id="best" class="muted"></p>
+    <!-- Místo pro budoucí prémiové režimy (config.features.premium) -->
+    <div id="premium-entry" hidden></div>
+  </section>
+
+  <section id="screen-quiz" class="screen" hidden>
+    <div class="progress"><div id="progress-bar"></div></div>
+    <div class="meta"><span id="q-counter"></span><span id="q-topic" class="chip"></span></div>
+    <h2 id="q-text"></h2>
+    <div id="q-options" class="options"></div>
+    <div id="feedback" class="feedback" hidden>
+      <p id="fb-title" class="fb-title"></p>
+      <p id="fb-text"></p>
+      <p class="rule">📖 <span id="fb-rule"></span></p>
+    </div>
+    <button id="btn-next" class="btn primary" hidden>Další otázka</button>
+  </section>
+
+  <section id="screen-result" class="screen" hidden>
+    <h1 id="r-title"></h1>
+    <div class="score"><span id="r-score"></span><small id="r-pct"></small></div>
+    <p id="r-band" class="muted"></p>
+    <p class="muted small">Hranice úspěchu <span id="r-threshold"></span> % je naše vlastní, nejde o oficiální kritérium ČGF.</p>
+    <div class="ad-slot" data-ad-slot="result" hidden></div>
+    <h3 id="r-wrong-title"></h3>
+    <div id="r-wrong"></div>
+    <button id="btn-restart" class="btn primary">Nový test</button>
+    <button id="btn-home" class="btn">Změnit hendikep</button>
+  </section>
+</main>
+
+<footer class="footer">
+  Neoficiální výuková aplikace. Nemá žádný vztah k České golfové federaci (ČGF) ani k R&amp;A či USGA.
+  Otázky jsou vlastními slovy podle <em>Pravidel golfu platných od ledna 2023</em>. Rozhodující je vždy oficiální znění:
+  <a href="https://www.randa.org/cs-CZ/rog/the-rules-of-golf" target="_blank" rel="noopener">Pravidla golfu (R&amp;A, česky)</a> ·
+  <a href="https://www.cgf.cz/" target="_blank" rel="noopener">cgf.cz</a>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
