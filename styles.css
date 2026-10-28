@@ -47,3 +47,8 @@ h2{font-size:1.15rem;line-height:1.4;margin:.6em 0 1em}
 .fb-img[hidden]{display:none}
 .q-img{display:block;width:100%;height:auto;margin:4px 0 12px;border-radius:12px}
 .q-img[hidden]{display:none}
+
+/* Otázky se dvěma možnostmi (Ano / Ne) vedle sebe */
+.options.n2{grid-template-columns:1fr 1fr}
+.options.n2 .opt{justify-content:center;align-items:center;padding:16px 14px;font-weight:600}
+.options.n2 .key{display:none}

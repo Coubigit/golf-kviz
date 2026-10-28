@@ -122,7 +122,7 @@
     $("q-id").textContent = q.id;
     $("q-topic").textContent = topics[q.topic] || q.topic;
     $("q-rule").textContent = q.rule;
-    $("q-diff").textContent = DIFF[q.difficulty] || ("obtížnost " + q.difficulty);
+    $("q-diff").textContent = (DIFF[q.difficulty] || ("obtížnost " + q.difficulty)) + (q.weight > 1 ? " · ★ častěji v testu" : "");
     $("q-changed").hidden = !isChanged(q);
     setImg($("q-img"), q.image, q.imageAlt);
     $("q-text").textContent = q.question;
@@ -136,11 +136,12 @@
     $("btn-next").disabled = pos >= order.length - 1;
     window.scrollTo(0, 0);
   }
+  function lbl(q, i) { return q.options.length === 2 ? "„" + q.options[i] + "“" : "ABCD"[i]; }
   function setImg(el, src, alt) { if (src) { el.src = "../" + src; el.alt = alt || ""; el.hidden = false; } else { el.hidden = true; el.removeAttribute("src"); } }
 
   function renderOptions(q) {
     var show = !st.guess || revealed[q.id], box = $("q-options");
-    box.innerHTML = "";
+    box.innerHTML = ""; box.className = "options n" + q.options.length;
     q.options.forEach(function (t, i) {
       var b = document.createElement("button"); b.type = "button"; b.className = "opt";
       b.innerHTML = '<span class="key">' + "ABCD"[i] + "</span><span></span>";
@@ -158,7 +159,7 @@
     if (show) {
       var p = picked[q.id], guessed = st.guess && p != null;
       fb.className = "feedback " + (guessed && p !== q.answer ? "bad" : "ok");
-      $("fb-title").textContent = guessed ? (p === q.answer ? "Správně" : "Špatně – správně je " + "ABCD"[q.answer]) : "Správná odpověď: " + "ABCD"[q.answer];
+      $("fb-title").textContent = guessed ? (p === q.answer ? "Správně" : "Špatně – správně je " + lbl(q, q.answer)) : "Správná odpověď: " + lbl(q, q.answer);
       $("fb-text").textContent = q.explanation;
       setImg($("fb-img"), q.explanationImage, q.explanationImageAlt);
       fb.hidden = false;

@@ -10,11 +10,18 @@
   function load(key, def) { try { var v = JSON.parse(localStorage.getItem(key)); return v == null ? def : v; } catch (e) { return def; } }
   function save(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) {} }
 
+  // Náhodné pořadí, ve kterém mají oblíbené otázky (pole "weight" v questions.json, výchozí 1) větší šanci být vpředu.
+  // Používá se jen uvnitř jedné obtížnosti, takže mix podle hendikepu zůstává stejný.
+  function weightedOrder(a) {
+    return a.map(function (q) { var w = q.weight > 0 ? q.weight : 1; return { q: q, k: Math.pow(Math.random(), 1 / w) }; })
+      .sort(function (x, y) { return y.k - x.k; }).map(function (x) { return x.q; });
+  }
+
   // Výběr otázek podle hendikepového pásma: rozdělení podle obtížnosti, chybějící se doplní z nejbližší obtížnosti.
   function pickQuestions(all, mix, n) {
     n = Math.min(n, all.length);
     var pools = { 1: [], 2: [], 3: [] };
-    shuffle(all).forEach(function (q) { (pools[q.difficulty] || pools[2]).push(q); });
+    weightedOrder(all).forEach(function (q) { (pools[q.difficulty] || pools[2]).push(q); });
     var want = { 1: Math.round(mix[1] * n), 2: Math.round(mix[2] * n), 3: 0 };
     want[3] = n - want[1] - want[2];
     var out = [];
@@ -45,7 +52,8 @@
     save(LS_BAND, band.id);
     quiz = pickQuestions(bank, band.mix, CFG.quizLength).map(function (q) {
       var opts = q.options.map(function (t, i) { return { t: t, ok: i === q.answer }; });
-      return { q: q, opts: shuffle(opts) };
+      // Otázky se dvěma možnostmi (Ano / Ne) nechávají pevné pořadí, ostatní se míchají.
+      return { q: q, opts: opts.length === 2 ? opts : shuffle(opts) };
     });
     idx = 0; score = 0; wrong = [];
     show("quiz"); renderQuestion();
@@ -58,7 +66,7 @@
     $("progress-bar").style.width = (idx / quiz.length * 100) + "%";
     $("q-text").textContent = item.q.question;
     var qi = $("q-img"); if (item.q.image) { qi.src = item.q.image; qi.alt = item.q.imageAlt || ""; qi.hidden = false; } else { qi.hidden = true; qi.removeAttribute("src"); }
-    var box = $("q-options"); box.innerHTML = "";
+    var box = $("q-options"); box.innerHTML = ""; box.className = "options n" + item.opts.length;
     item.opts.forEach(function (o, i) {
       var b = document.createElement("button"); b.className = "opt"; b.type = "button";
       b.innerHTML = '<span class="key">' + "ABCD"[i] + "</span><span></span>";
