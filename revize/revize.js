@@ -4,6 +4,8 @@
   var LS = "golfquiz.revize.v1";
   // Oficiální PDF Pravidel golfu 2023 (ČGF). Obrázky z pravidel do repa nedáváme (autorská práva), jen odkaz na stránku.
   var RULES_PDF = "http://fls.cgf.cz/DBFL/CGSRedaction/Documents/Pravidla%20golfu%202023%20-%20v230508.pdf";
+  // Kola revize: data každého kola zůstávají v localStorage. Aktivní kolo je nejméně MIN_ROUND (nové kolo po zapracování poznámek).
+  var MIN_ROUND = 2;
   var DIFF = { 1: "lehká", 2: "střední", 3: "záludná" };
   var RULE_NAMES = { 1: "Základy hry a chování", 2: "Hřiště", 3: "Soutěž", 4: "Výstroj", 5: "Hraní kola", 6: "Hraní jamky",
     7: "Hledání míče", 8: "Hřiště hraj, jak je", 9: "Míč hraj, jak leží", 10: "Příprava na ránu, rada a nosič",
@@ -14,15 +16,39 @@
 
   var bank = [], byId = {}, topics = {}, order = [], cur = null, revealed = {}, picked = {}, saveTimer = null;
   var st = load();
+  persist(); // uloží případnou migraci na kola revize
 
   function $(id) { return document.getElementById(id); }
   function load() {
     var d; try { d = JSON.parse(localStorage.getItem(LS)); } catch (e) {}
     d = d && typeof d === "object" ? d : {};
-    d.items = d.items || {}; d.f = d.f || { rule: "", topic: "", status: "", sort: "rule" }; d.guess = !!d.guess;
+    d.f = d.f || { rule: "", topic: "", status: "", sort: "rule" }; d.guess = !!d.guess;
+    if (!d.rounds || typeof d.rounds !== "object") {
+      // Starý formát (jen d.items) = 1. kolo revize.
+      d.rounds = {};
+      if (d.items && Object.keys(d.items).length) d.rounds["1"] = { items: d.items, started: 0 };
+    }
+    delete d.items;
+    var maxR = Math.max.apply(null, [0].concat(Object.keys(d.rounds).map(Number)));
+    d.round = +d.round || 0;
+    if (d.round < MIN_ROUND || !d.rounds[d.round]) d.round = Math.max(MIN_ROUND, maxR, d.round);
+    if (!d.rounds[d.round]) { d.rounds[d.round] = { items: {}, started: Date.now() }; d.last = null; }
+    Object.keys(d.rounds).forEach(function (k) { d.rounds[k].items = d.rounds[k].items || {}; });
+    d.items = d.rounds[d.round].items;
     return d;
   }
-  function persist() { try { localStorage.setItem(LS, JSON.stringify(st)); return true; } catch (e) { return false; } }
+  function persist() {
+    var o = {}; Object.keys(st).forEach(function (k) { if (k !== "items") o[k] = st[k]; });
+    try { localStorage.setItem(LS, JSON.stringify(o)); return true; } catch (e) { return false; }
+  }
+  function prevRounds() { return Object.keys(st.rounds).map(Number).filter(function (r) { return r !== st.round; }).sort(function (a, b) { return b - a; }); }
+  function roundRec(r, id) { var it = st.rounds[r] && st.rounds[r].items[id]; return it && (it.s || (it.c && it.c.trim())) ? it : null; }
+  function newRound() {
+    flushComment();
+    if (!confirm("Začít novou revizi č. " + (st.round + 1) + "? Kontroly a poznámky z revize č. " + st.round + " zůstanou uložené v sekci „Předchozí revize“ a půjdou dál exportovat.")) return;
+    st.round = st.round + 1; st.rounds[st.round] = { items: {}, started: Date.now() }; st.items = st.rounds[st.round].items; st.last = null;
+    persist(); updateCounts(); renderPrev(); location.hash = "seznam"; route();
+  }
 
   function hash(q) {
     var s = [q.question, q.options.join("|"), q.answer, q.explanation].join("#"), h = 5381;
@@ -56,6 +82,7 @@
     var done = 0, ok = 0, fix = 0;
     bank.forEach(function (q) { if (isDone(q.id)) done++; var s = rec(q.id).s; if (s === "ok") ok++; if (s === "fix") fix++; });
     $("cnt-done").textContent = done + " / " + bank.length;
+    $("cnt-round").textContent = "Revize " + st.round;
     $("cnt-ok").textContent = ok; $("cnt-fix").textContent = fix;
     $("progress-bar").style.width = (bank.length ? done / bank.length * 100 : 0) + "%";
   }
@@ -133,6 +160,13 @@
     renderOptions(q);
     var r = rec(id);
     $("comment").value = r.c || "";
+    var pv = $("q-prev"); pv.innerHTML = "";
+    prevRounds().forEach(function (rn) {
+      var it = roundRec(rn, id); if (!it) return;
+      var p = document.createElement("p"); p.textContent = "Revize " + rn + ": " + (it.s === "ok" ? "✓ OK" : "✎ Opravit") + (it.c && it.c.trim() ? " – " + it.c.trim() : "");
+      pv.appendChild(p);
+    });
+    pv.hidden = !pv.firstChild;
     $("saved").innerHTML = "&nbsp;";
     paintStatus(r.s);
     $("btn-prev").disabled = pos <= 0;
@@ -204,11 +238,14 @@
   }
 
   // ---------- Export / import ----------
-  function exportItems() { return sortedAll().filter(function (id) { return rec(id).s === "fix" || hasNote(id); }); }
-  function exportText() {
-    var ids = exportItems(), d = new Date(), done = bank.filter(function (q) { return isDone(q.id); }).length;
+  function exportItems(rn) { return sortedAll().filter(function (id) { var r = recIn(rn, id); return r.s === "fix" || (r.c && r.c.trim()); }); }
+  function recIn(rn, id) { var it = st.rounds[rn] ? st.rounds[rn].items : {}; return it[id] || { s: "", c: "" }; }
+  function exportText(rn) {
+    rn = rn || st.round;
+    var rec = function (id) { return recIn(rn, id); }, isDone = function (id) { var r = rec(id); return !!(r.s || (r.c && r.c.trim())); };
+    var ids = exportItems(rn), d = new Date(), done = bank.filter(function (q) { return isDone(q.id); }).length;
     var ok = bank.filter(function (q) { return rec(q.id).s === "ok"; }).length;
-    var out = ["Poznámky k otázkám golfového kvízu", "Datum: " + d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear(),
+    var out = ["Poznámky k otázkám golfového kvízu – revize č. " + rn + (rn !== st.round ? " (předchozí)" : ""), "Datum: " + d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear(),
       "Zkontrolováno: " + done + "/" + bank.length + " · OK: " + ok + " · K opravě / s poznámkou: " + ids.length, ""];
     if (!ids.length) out.push("Zatím žádná otázka k opravě ani poznámka.");
     ids.forEach(function (id) {
@@ -221,10 +258,11 @@
     });
     return out.join("\n");
   }
-  function exportJson() {
-    var items = {};
-    Object.keys(st.items).forEach(function (id) { var r = st.items[id]; if (r.s || (r.c && r.c.trim())) { items[id] = { s: r.s || "", c: r.c || "", t: r.t || 0, h: r.h || "", otazka: byId[id] ? byId[id].question : "" }; } });
-    return JSON.stringify({ app: "golf-kviz-revize", version: 1, exported: new Date().toISOString(), items: items }, null, 1);
+  function exportJson(rn) {
+    rn = rn || st.round;
+    var items = {}, src = st.rounds[rn] ? st.rounds[rn].items : {};
+    Object.keys(src).forEach(function (id) { var r = src[id]; if (r.s || (r.c && r.c.trim())) { items[id] = { s: r.s || "", c: r.c || "", t: r.t || 0, h: r.h || "", otazka: byId[id] ? byId[id].question : "" }; } });
+    return JSON.stringify({ app: "golf-kviz-revize", version: 2, round: rn, exported: new Date().toISOString(), items: items }, null, 1);
   }
   function stamp() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
   function download(name, text, type) {
@@ -242,16 +280,54 @@
     fr.onload = function () {
       try {
         var d = JSON.parse(fr.result), items = d.items || d, n = 0;
+        // Záloha nese číslo kola; starší zálohy bez čísla jsou z 1. kola.
+        var rn = d.app === "golf-kviz-revize" ? (+d.round || 1) : st.round;
+        if (!st.rounds[rn]) st.rounds[rn] = { items: {}, started: 0 };
+        var tgt = st.rounds[rn].items;
         Object.keys(items).forEach(function (id) {
           var inc = items[id]; if (!inc || typeof inc !== "object" || !/^q\d+$/.test(id)) return;
-          var mine = st.items[id];
-          if (!mine || (inc.t || 0) > (mine.t || 0)) { st.items[id] = { s: inc.s === "ok" || inc.s === "fix" ? inc.s : "", c: String(inc.c || ""), t: inc.t || Date.now(), h: inc.h || "" }; n++; }
+          var mine = tgt[id];
+          if (!mine || (inc.t || 0) > (mine.t || 0)) { tgt[id] = { s: inc.s === "ok" || inc.s === "fix" ? inc.s : "", c: String(inc.c || ""), t: inc.t || Date.now(), h: inc.h || "" }; n++; }
         });
-        persist(); updateCounts(); $("export-text").value = exportText();
-        $("import-info").textContent = "Načteno ✓ Aktualizováno: " + n + (n === 1 ? " otázka." : n >= 2 && n <= 4 ? " otázky." : " otázek.");
+        persist(); updateCounts(); renderPrev(); $("export-text").value = exportText();
+        $("import-info").textContent = "Načteno do revize č. " + rn + (rn === st.round ? "" : " (předchozí)") + " ✓ Aktualizováno: " + n + (n === 1 ? " otázka." : n >= 2 && n <= 4 ? " otázky." : " otázek.");
       } catch (e) { $("import-info").textContent = "Tohle není platná záloha (.json)."; }
     };
     fr.readAsText(file);
+  }
+
+  // ---------- Předchozí revize ----------
+  function renderPrev() {
+    var box = $("prev-rounds"), list = $("prev-list"), rs = prevRounds();
+    box.hidden = !rs.length; list.innerHTML = "";
+    rs.forEach(function (rn) {
+      var it = st.rounds[rn].items, ids = exportItems(rn), done = Object.keys(it).filter(function (id) { return roundRec(rn, id); }).length;
+      var sec = document.createElement("div"); sec.className = "rv-prev-round"; sec.dataset.round = rn;
+      var h = document.createElement("h4"); h.textContent = "Revize " + rn + " · zkontrolováno " + done + " · k opravě / s poznámkou " + ids.length; sec.appendChild(h);
+      ids.forEach(function (id) {
+        var r = it[id], p = document.createElement("p"); p.className = "rv-prev-item";
+        var a = document.createElement("a"); a.href = "#" + id; a.textContent = id; p.appendChild(a);
+        p.appendChild(document.createTextNode(" " + (r.s === "fix" ? "✎ " : r.s === "ok" ? "✓ " : "") + (r.c && r.c.trim() ? r.c.trim() : "(bez poznámky)")));
+        sec.appendChild(p);
+      });
+      var b1 = document.createElement("button"); b1.type = "button"; b1.className = "btn"; b1.textContent = "Zkopírovat poznámky z revize " + rn;
+      b1.addEventListener("click", function () { copy(exportText(rn)); b1.textContent = "Zkopírováno ✓"; });
+      var b2 = document.createElement("button"); b2.type = "button"; b2.className = "btn"; b2.textContent = "Stáhnout zálohu revize " + rn + " (.json)";
+      b2.addEventListener("click", function () { download("golf-kviz-revize" + rn + "-" + stamp() + ".json", exportJson(rn), "application/json"); });
+      sec.appendChild(b1); sec.appendChild(b2); list.appendChild(sec);
+    });
+  }
+  function renderChangelog() {
+    fetch("changelog.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+      var box = $("changelog-list"); box.innerHTML = "";
+      (d.entries || []).forEach(function (e) {
+        var h = document.createElement("h4"); h.textContent = e.date + (e.title ? " – " + e.title : ""); box.appendChild(h);
+        var ul = document.createElement("ul");
+        (e.items || []).forEach(function (t) { var li = document.createElement("li"); li.textContent = t; ul.appendChild(li); });
+        box.appendChild(ul);
+      });
+      $("changelog").hidden = false;
+    }).catch(function () {});
   }
 
   // ---------- Router ----------
@@ -291,17 +367,18 @@
   $("btn-dl-json").addEventListener("click", function () { download("golf-kviz-revize-" + stamp() + ".json", exportJson(), "application/json"); });
   $("import-file").addEventListener("change", function (e) { if (e.target.files[0]) importFile(e.target.files[0]); e.target.value = ""; });
   $("btn-reset").addEventListener("click", function () {
-    if (!confirm("Opravdu smazat všechny tvoje kontroly a poznámky? Nejdřív si radši stáhni zálohu.")) return;
-    st.items = {}; persist(); updateCounts(); $("export-text").value = exportText(); $("import-info").textContent = "Smazáno.";
+    if (!confirm("Opravdu smazat všechny tvoje kontroly a poznámky z revize č. " + st.round + "? Předchozí revize zůstanou. Nejdřív si radši stáhni zálohu.")) return;
+    st.items = st.rounds[st.round].items = {}; persist(); updateCounts(); $("export-text").value = exportText(); $("import-info").textContent = "Smazáno.";
   });
   $("btn-photo-note").addEventListener("click", photoNote);
+  $("btn-new-round").addEventListener("click", newRound);
   window.addEventListener("hashchange", route);
 
   fetch("../data/questions.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (data) {
     bank = data.questions || []; topics = data.topics || {};
     bank.forEach(function (q) { byId[q.id] = q; q._rk = ruleKey(q.rule || ""); });
     $("loading").hidden = true;
-    fillFilters(); updateCounts();
+    fillFilters(); updateCounts(); renderPrev(); renderChangelog();
     if (!location.hash && st.last && byId[st.last]) { order = filtered().map(function (q) { return q.id; }); }
     route();
   }).catch(function () { $("loading").textContent = "Nepodařilo se načíst otázky. Zkontroluj připojení a obnov stránku."; });

@@ -20,7 +20,7 @@
 <div class="rv-status">
   <div class="rv-status-in">
     <div class="progress"><div id="progress-bar"></div></div>
-    <p class="rv-count"><strong id="cnt-done">0 / 0</strong> zkontrolováno · <span class="c-ok">✓ <span id="cnt-ok">0</span></span> · <span class="c-fix">✎ <span id="cnt-fix">0</span> k opravě</span></p>
+    <p class="rv-count"><span id="cnt-round" class="rv-round">Revize</span> · <strong id="cnt-done">0 / 0</strong> zkontrolováno · <span class="c-ok">✓ <span id="cnt-ok">0</span></span> · <span class="c-fix">✎ <span id="cnt-fix">0</span> k opravě</span></p>
   </div>
 </div>
 </div>
@@ -50,6 +50,12 @@
     <button id="btn-next-todo-list" class="btn primary" type="button">Pokračovat další nezkontrolovanou</button>
     <p id="list-info" class="muted small"></p>
     <div id="list"></div>
+    <details id="prev-rounds" class="rv-prev" hidden>
+      <summary>Předchozí revize</summary>
+      <p class="muted small">Tvoje kontroly a poznámky z dřívějších kol. Jen ke čtení, dají se dál zkopírovat nebo stáhnout.</p>
+      <div id="prev-list"></div>
+    </details>
+    <button id="btn-new-round" class="btn rv-new-round" type="button">Začít novou revizi</button>
   </section>
 
   <!-- Detail otázky -->
@@ -86,6 +92,7 @@
       <label for="comment" class="rv-label">Poznámka k opravě</label>
       <textarea id="comment" rows="4" placeholder="Co je špatně a jak by to mělo znít? Např. „Možnost C je taky správně podle 16.1b“"></textarea>
       <p id="saved" class="muted small rv-saved">&nbsp;</p>
+      <div id="q-prev" class="rv-qprev muted small" hidden></div>
     </div>
 
     <div class="rv-nav">
@@ -111,8 +118,12 @@
     <input id="import-file" type="file" accept=".json,application/json">
     <p id="import-info" class="muted small">&nbsp;</p>
     <h3>Začít znovu</h3>
-    <button id="btn-reset" class="btn rv-danger" type="button">Smazat všechny moje kontroly</button>
+    <button id="btn-reset" class="btn rv-danger" type="button">Smazat moje kontroly v aktuální revizi</button>
   </section>
+  <details id="changelog" class="rv-changelog" hidden>
+    <summary>Historie změn</summary>
+    <div id="changelog-list"></div>
+  </details>
 </main>
 
 <footer class="footer">Testovací stránka pro kontrolu otázek. Poznámky se ukládají jen v tomto prohlížeči, dokud je nepošleš.</footer>
