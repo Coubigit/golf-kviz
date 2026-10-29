@@ -31,7 +31,8 @@
     "Počkat, kam míč dopadne, a pak zavolat „pozór“"
    ],
    "answer": 0,
-   "explanation": "Ohleduplnost k ostatním zahrnuje bezpečnost: když hrozí zásah, okamžitě varuj zvoláním „fór“. Když míč někoho ohrozí nebo zasáhne, patří se potom omluvit. To už je etiketa, pravidla to nepředepisují."
+   "explanation": "Ohleduplnost k ostatním zahrnuje bezpečnost: když hrozí zásah, okamžitě varuj zvoláním „fór“. Když míč někoho ohrozí nebo zasáhne, patří se potom omluvit. To už je etiketa, pravidla to nepředepisují.",
+   "photo": "img/foto/q001.jpg"
   },
   {
    "id": "q002",
@@ -46,7 +47,8 @@
     "Dokud ho nenajdeš"
    ],
    "answer": 0,
-   "explanation": "Na hledání máš 3 minuty od chvíle, kdy ty nebo tvůj nosič začnete hledat. Pak je míč ztracen."
+   "explanation": "Na hledání máš 3 minuty od chvíle, kdy ty nebo tvůj nosič začnete hledat. Pak je míč ztracen.",
+   "photo": "img/foto/q002.jpg"
   },
   {
    "id": "q003",
@@ -61,7 +63,10 @@
     "Dvě trestné rány a dropneš u hranice"
    ],
    "answer": 0,
-   "explanation": "Za míč mimo hřiště platíš ztrátou rány a vzdálenosti: připočteš si trestnou ránu a hraješ znovu z odpaliště. Další rána je tvá třetí."
+   "explanation": "Za míč mimo hřiště platíš ztrátou rány a vzdálenosti: připočteš si trestnou ránu a hraješ znovu z odpaliště. Další rána je tvá třetí.",
+   "photo": "img/foto/q003.jpg",
+   "rulesFigurePage": 164,
+   "rulesFigureTitle": "Diagram 18.2a – Kdy je míč mimo hřiště"
   },
   {
    "id": "q004",
@@ -80,7 +85,10 @@
    "explanationImage": "img/q004-zluta-oblast.jpg",
    "explanationImageAlt": "Úleva ze žluté trestné oblasti: místo předchozí rány (1) a úleva dozadu po spojnici přes místo vstupu do vody (2), obojí s trestnou ranou.",
    "image": "img/q004-otazka.jpg",
-   "imageAlt": "Hráč odpálil a míč skončil v rybníku označeném žlutými kolíky."
+   "imageAlt": "Hráč odpálil a míč skončil v rybníku označeném žlutými kolíky.",
+   "photo": "img/foto/q004.jpg",
+   "rulesFigurePage": 156,
+   "rulesFigureTitle": "Diagram #1 17.1d – Úleva pro míč ve žluté trestné oblasti"
   },
   {
    "id": "q005",
@@ -95,7 +103,8 @@
     "Druhý míč je provizorní, protože jsi to tak myslel"
    ],
    "answer": 0,
-   "explanation": "Provizorní míč musíš předem jasně oznámit. Bez toho se druhý míč zahraný z místa předchozí rány stává míčem ve hře se ztrátou rány a vzdálenosti."
+   "explanation": "Provizorní míč musíš předem jasně oznámit. Bez toho se druhý míč zahraný z místa předchozí rány stává míčem ve hře se ztrátou rány a vzdálenosti.",
+   "photo": "img/foto/q005.jpg"
   },
   {
    "id": "q006",
@@ -110,7 +119,8 @@
     "Dvě trestné rány, jen na 3. jamce, kde jsi to zjistil"
    ],
    "answer": 0,
-   "explanation": "Dostaneš všeobecný trest (dvě rány) za každou jamku s porušením, nejvýše ale 4 rány za kolo. Připíšou se na 1. a 2. jamce. Nadbytečnou hůl musíš před další ranou zřetelně vyřadit ze hry."
+   "explanation": "Dostaneš všeobecný trest (dvě rány) za každou jamku s porušením, nejvýše ale 4 rány za kolo. Připíšou se na 1. a 2. jamce. Nadbytečnou hůl musíš před další ranou zřetelně vyřadit ze hry.",
+   "photo": "img/foto/q006.jpg"
   },
   {
    "id": "q007",
@@ -125,7 +135,10 @@
     "Vybereš si"
    ],
    "answer": 0,
-   "explanation": "Ranou z místa bližšího jamce, než je odhadovaná poloha původního míče, se provizorní míč stává míčem ve hře."
+   "explanation": "Ranou z místa bližšího jamce, než je odhadovaná poloha původního míče, se provizorní míč stává míčem ve hře.",
+   "photo": "img/foto/q007.jpg",
+   "rulesFigurePage": 167,
+   "rulesFigureTitle": "Diagram 18.3c – Provizorní míč zahraný z místa blíže jamce"
   },
   {
    "id": "q008",
@@ -140,7 +153,10 @@
     "Žádná, ven jen se dvěma ranami"
    ],
    "answer": 0,
-   "explanation": "S jednou trestnou ranou se z bankru dostaneš jen postupem se ztrátou rány a vzdálenosti. Úleva dozadu mimo bankr stojí dvě trestné rány."
+   "explanation": "S jednou trestnou ranou se z bankru dostaneš jen postupem se ztrátou rány a vzdálenosti. Úleva dozadu mimo bankr stojí dvě trestné rány.",
+   "photo": "img/foto/q008.jpg",
+   "rulesFigurePage": 172,
+   "rulesFigureTitle": "Diagram 19.3 – Nehratelný míč v bankru"
   },
   {
    "id": "q009",
@@ -155,7 +171,8 @@
     "Rozhodne zapisovatel"
    ],
    "answer": 0,
-   "explanation": "Míč nalezený v limitu musíš bez prodlení identifikovat. Na to (včetně cesty k němu) máš přiměřený čas i po 3 minutách."
+   "explanation": "Míč nalezený v limitu musíš bez prodlení identifikovat. Na to (včetně cesty k němu) máš přiměřený čas i po 3 minutách.",
+   "photo": "img/foto/q009.jpg"
   },
   {
    "id": "q010",
@@ -170,7 +187,8 @@
     "Rána se nepočítá, ale připíšeš si jednu trestnou ránu"
    ],
    "answer": 0,
-   "explanation": "Švih s úmyslem trefit je rána, i když mine. Míč ve hře na odpališti lze beztrestně zvednout a hrát odkudkoli z odpaliště."
+   "explanation": "Švih s úmyslem trefit je rána, i když mine. Míč ve hře na odpališti lze beztrestně zvednout a hrát odkudkoli z odpaliště.",
+   "photo": "img/foto/q010.jpg"
   },
   {
    "id": "q011",
@@ -185,7 +203,8 @@
     "Vracet drny, uhrabávat bankry a opravovat dopady míčů"
    ],
    "answer": 3,
-   "explanation": "Pravidla jako péči o hřiště jmenují vracení vyseknutých drnů, uhrabávání bankrů, opravu dopadů míčů a to, že hřiště zbytečně nepoškozuješ. Sebrat odpadek nebo nahlásit škodu je hezké, ale pravidla to od hráče nežádají."
+   "explanation": "Pravidla jako péči o hřiště jmenují vracení vyseknutých drnů, uhrabávání bankrů, opravu dopadů míčů a to, že hřiště zbytečně nepoškozuješ. Sebrat odpadek nebo nahlásit škodu je hezké, ale pravidla to od hráče nežádají.",
+   "photo": "img/foto/q011.jpg"
   },
   {
    "id": "q012",
@@ -200,7 +219,8 @@
     "Jen napomenutí"
    ],
    "answer": 0,
-   "explanation": "Za vážné nevhodné chování může výbor hráče diskvalifikovat vždy. Mírnější tresty smí dávat jen tehdy, když přijal kodex chování."
+   "explanation": "Za vážné nevhodné chování může výbor hráče diskvalifikovat vždy. Mírnější tresty smí dávat jen tehdy, když přijal kodex chování.",
+   "photo": "img/foto/q012.jpg"
   },
   {
    "id": "q013",
@@ -215,7 +235,8 @@
     "Pravidla žádný čas nedoporučují"
    ],
    "answer": 0,
-   "explanation": "Doporučení zní nejvýše 40 vteřin od chvíle, kdy můžeš hrát, a obvykle by to mělo být mnohem rychlejší."
+   "explanation": "Doporučení zní nejvýše 40 vteřin od chvíle, kdy můžeš hrát, a obvykle by to mělo být mnohem rychlejší.",
+   "photo": "img/foto/q013.jpg"
   },
   {
    "id": "q014",
@@ -230,7 +251,8 @@
     "Počkat na maršála, ať rozhodne, která skupina půjde první"
    ],
    "answer": 2,
-   "explanation": "Pravidla výslovně doporučují umožnit rychlejší skupině, aby vás předešla."
+   "explanation": "Pravidla výslovně doporučují umožnit rychlejší skupině, aby vás předešla.",
+   "photo": "img/foto/q014.jpg"
   },
   {
    "id": "q015",
@@ -245,7 +267,8 @@
     "Žádný, ready golf je v pořádku"
    ],
    "answer": 3,
-   "explanation": "Ve hře na rány se hra mimo pořadí netrestá a bezpečný ready golf se dokonce doporučuje. Trest by byl jen za dohodu hrát mimo pořadí kvůli výhodě."
+   "explanation": "Ve hře na rány se hra mimo pořadí netrestá a bezpečný ready golf se dokonce doporučuje. Trest by byl jen za dohodu hrát mimo pořadí kvůli výhodě.",
+   "photo": "img/foto/q015.jpg"
   },
   {
    "id": "q016",
@@ -260,7 +283,8 @@
     "Jen napomenutí bez trestu"
    ],
    "answer": 2,
-   "explanation": "Za první porušení je jedna trestná rána, za druhé dvě rány a za třetí diskvalifikace."
+   "explanation": "Za první porušení je jedna trestná rána, za druhé dvě rány a za třetí diskvalifikace.",
+   "photo": "img/foto/q016.jpg"
   },
   {
    "id": "q017",
@@ -275,7 +299,8 @@
     "Nic"
    ],
    "answer": 2,
-   "explanation": "Golf stojí na poctivosti: hráč uplatňuje pravidla sám na sebe. Kdo si vědomě neudělí trest, je diskvalifikován."
+   "explanation": "Golf stojí na poctivosti: hráč uplatňuje pravidla sám na sebe. Kdo si vědomě neudělí trest, je diskvalifikován.",
+   "photo": "img/foto/q017.jpg"
   },
   {
    "id": "q018",
@@ -290,7 +315,8 @@
     "Soutěžní výbor při kontrole výsledkového lístku"
    ],
    "answer": 0,
-   "explanation": "Každý hráč uplatňuje pravidla sám na sebe a sám si přičítá tresty, i když nikdo nic neviděl. Tady si připíšeš jednu trestnou ránu a míč vrátíš na původní místo (pravidlo 9.4b). Kdo by si trest vědomě nepřipsal, je diskvalifikován."
+   "explanation": "Každý hráč uplatňuje pravidla sám na sebe a sám si přičítá tresty, i když nikdo nic neviděl. Tady si připíšeš jednu trestnou ránu a míč vrátíš na původní místo (pravidlo 9.4b). Kdo by si trest vědomě nepřipsal, je diskvalifikován.",
+   "photo": "img/foto/q018.jpg"
   },
   {
    "id": "q019",
@@ -305,7 +331,8 @@
     "Jen ve hře na jamky po dohodě se soupeřem"
    ],
    "answer": 1,
-   "explanation": "Kvůli bleskům smíš přestat hrát sám, musíš to ale co nejdříve oznámit výboru. Bez oznámení hrozí diskvalifikace."
+   "explanation": "Kvůli bleskům smíš přestat hrát sám, musíš to ale co nejdříve oznámit výboru. Bez oznámení hrozí diskvalifikace.",
+   "photo": "img/foto/q019.jpg"
   },
   {
    "id": "q020",
@@ -320,7 +347,8 @@
     "Nic, tolerance je pět minut"
    ],
    "answer": 2,
-   "explanation": "Startovní čas je přesný. Kdo dorazí připravený do pěti minut po něm, dostane všeobecný trest na první jamce. Později už je to diskvalifikace."
+   "explanation": "Startovní čas je přesný. Kdo dorazí připravený do pěti minut po něm, dostane všeobecný trest na první jamce. Později už je to diskvalifikace.",
+   "photo": "img/foto/q020.jpg"
   },
   {
    "id": "q021",
@@ -335,7 +363,8 @@
     "Dohoda neplatí, stačí si trest normálně připsat"
    ],
    "answer": 1,
-   "explanation": "Diskvalifikace je už za samotnou dohodu. Jakmile kterýkoli z nich začne kolo, jsou diskvalifikováni oba, i když dohodu ještě nevyužili. Platí to jen tehdy, když o pravidle nebo trestu, který chtějí ignorovat, vědí."
+   "explanation": "Diskvalifikace je už za samotnou dohodu. Jakmile kterýkoli z nich začne kolo, jsou diskvalifikováni oba, i když dohodu ještě nevyužili. Platí to jen tehdy, když o pravidle nebo trestu, který chtějí ignorovat, vědí.",
+   "photo": "img/foto/q021.jpg"
   },
   {
    "id": "q022",
@@ -350,7 +379,8 @@
     "Na greenu kterékoli jamky po cestě, pokud tam nikdo nehraje"
    ],
    "answer": 2,
-   "explanation": "Mezi jamkami smíš patovat a přihrávat na dohraném greenu nebo u něj, na cvičném greenu a na dalším odpališti. Nikdy ale ne z bankru a bez zdržování hry."
+   "explanation": "Mezi jamkami smíš patovat a přihrávat na dohraném greenu nebo u něj, na cvičném greenu a na dalším odpališti. Nikdy ale ne z bankru a bez zdržování hry.",
+   "photo": "img/foto/q022.jpg"
   },
   {
    "id": "q023",
@@ -365,7 +395,10 @@
     "Tři délky hole"
    ],
    "answer": 0,
-   "explanation": "Odpaliště je obdélník hluboký dvě délky hole. Vepředu ho ohraničuje spojnice předních okrajů kamenů, po stranách jejich vnější okraje."
+   "explanation": "Odpaliště je obdélník hluboký dvě délky hole. Vepředu ho ohraničuje spojnice předních okrajů kamenů, po stranách jejich vnější okraje.",
+   "photo": "img/foto/q023.jpg",
+   "rulesFigurePage": 59,
+   "rulesFigureTitle": "Diagram 6.2b – Kdy je míč na odpališti"
   },
   {
    "id": "q024",
@@ -380,7 +413,10 @@
     "Když se ho jakoukoli částí dotýká nebo je nad ním"
    ],
    "answer": 3,
-   "explanation": "Stačí, aby se míč odpaliště dotýkal nebo nad ním byl jakoukoli svou částí."
+   "explanation": "Stačí, aby se míč odpaliště dotýkal nebo nad ním byl jakoukoli svou částí.",
+   "photo": "img/foto/q024.jpg",
+   "rulesFigurePage": 59,
+   "rulesFigureTitle": "Diagram 6.2b – Kdy je míč na odpališti"
   },
   {
    "id": "q025",
@@ -395,7 +431,10 @@
     "Dvě trestné rány a znovu z odpaliště"
    ],
    "answer": 3,
-   "explanation": "Ve hře na rány je to všeobecný trest a musíš hrát znovu zevnitř odpaliště. Rána zpoza kamenů se nepočítá, takže z odpaliště hraješ svou třetí ránu."
+   "explanation": "Ve hře na rány je to všeobecný trest a musíš hrát znovu zevnitř odpaliště. Rána zpoza kamenů se nepočítá, takže z odpaliště hraješ svou třetí ránu.",
+   "photo": "img/foto/q025.jpg",
+   "rulesFigurePage": 59,
+   "rulesFigureTitle": "Diagram 6.2b – Kdy je míč na odpališti"
   },
   {
    "id": "q026",
@@ -410,7 +449,8 @@
     "Nic, ve hře na jamky na tom nezáleží"
    ],
    "answer": 0,
-   "explanation": "Ve hře na jamky to není trestné, ale soupeřovu ránu smíš zrušit. Musíš to udělat hned, dřív než kdokoli zahraje další ránu."
+   "explanation": "Ve hře na jamky to není trestné, ale soupeřovu ránu smíš zrušit. Musíš to udělat hned, dřív než kdokoli zahraje další ránu.",
+   "photo": "img/foto/q026.jpg"
   },
   {
    "id": "q027",
@@ -425,7 +465,8 @@
     "Rána se počítá a připíšeš si jednu ránu"
    ],
    "answer": 0,
-   "explanation": "Zahraješ-li míč, který padá nebo spadl z týčka, není to trestné, ale rána se počítá a míč je ve hře."
+   "explanation": "Zahraješ-li míč, který padá nebo spadl z týčka, není to trestné, ale rána se počítá a míč je ve hře.",
+   "photo": "img/foto/q027.jpg"
   },
   {
    "id": "q028",
@@ -440,7 +481,8 @@
     "Jana, má méně ran"
    ],
    "answer": 3,
-   "explanation": "O přednosti rozhoduje hrubý výsledek, a to i v hendikepové soutěži."
+   "explanation": "O přednosti rozhoduje hrubý výsledek, a to i v hendikepové soutěži.",
+   "photo": "img/foto/q028.jpg"
   },
   {
    "id": "q029",
@@ -455,7 +497,8 @@
     "Ano, je to pohyblivá závada"
    ],
    "answer": 2,
-   "explanation": "Když hraješ z daného odpaliště, jeho kameny jsou nepohyblivé. Kdekoli jinde na hřišti jsou to běžné pohyblivé závady."
+   "explanation": "Když hraješ z daného odpaliště, jeho kameny jsou nepohyblivé. Kdekoli jinde na hřišti jsou to běžné pohyblivé závady.",
+   "photo": "img/foto/q029.jpg"
   },
   {
    "id": "q030",
@@ -470,7 +513,8 @@
     "Kdykoli, na pořadí nezáleží"
    ],
    "answer": 1,
-   "explanation": "Provizorní nebo další míč z odpaliště se hraje, až všichni ve skupině odpálí."
+   "explanation": "Provizorní nebo další míč z odpaliště se hraje, až všichni ve skupině odpálí.",
+   "photo": "img/foto/q030.jpg"
   },
   {
    "id": "q031",
@@ -485,7 +529,10 @@
     "Šest"
    ],
    "answer": 2,
-   "explanation": "Pole a čtyři specifické oblasti: odpaliště, trestné oblasti, bankry a jamkoviště."
+   "explanation": "Pole a čtyři specifické oblasti: odpaliště, trestné oblasti, bankry a jamkoviště.",
+   "photo": "img/foto/q031.jpg",
+   "rulesFigurePage": 23,
+   "rulesFigureTitle": "Diagram 2.2 – Definované oblasti hřiště"
   },
   {
    "id": "q032",
@@ -500,7 +547,10 @@
     "Raf do pole, fairway je samostatná oblast"
    ],
    "answer": 0,
-   "explanation": "Pole je všechno kromě čtyř specifických oblastí, tedy i fairway, raf a stromy."
+   "explanation": "Pole je všechno kromě čtyř specifických oblastí, tedy i fairway, raf a stromy.",
+   "photo": "img/foto/q032.jpg",
+   "rulesFigurePage": 23,
+   "rulesFigureTitle": "Diagram 2.2 – Definované oblasti hřiště"
   },
   {
    "id": "q033",
@@ -515,7 +565,10 @@
     "Červenou"
    ],
    "answer": 0,
-   "explanation": "Hraniční kolíky a čáry by měly být bílé."
+   "explanation": "Hraniční kolíky a čáry by měly být bílé.",
+   "photo": "img/foto/q033.jpg",
+   "rulesFigurePage": 164,
+   "rulesFigureTitle": "Diagram 18.2a – Kdy je míč mimo hřiště"
   },
   {
    "id": "q034",
@@ -530,7 +583,10 @@
     "Když je víc než polovinou za hranicí"
    ],
    "answer": 0,
-   "explanation": "Míč je mimo hřiště, jen když je za hranicí celým svým objemem. Stačí, aby byl jakoukoli částí na hřišti nebo nad ním."
+   "explanation": "Míč je mimo hřiště, jen když je za hranicí celým svým objemem. Stačí, aby byl jakoukoli částí na hřišti nebo nad ním.",
+   "photo": "img/foto/q034.jpg",
+   "rulesFigurePage": 164,
+   "rulesFigureTitle": "Diagram 18.2a – Kdy je míč mimo hřiště"
   },
   {
    "id": "q035",
@@ -545,7 +601,10 @@
     "Jen po hladině vody, kolíky jsou orientační"
    ],
    "answer": 1,
-   "explanation": "U trestné oblasti je to obráceně než u hranice hřiště: kolíky jsou uvnitř oblasti a okraj vede po jejich vnějších okrajích."
+   "explanation": "U trestné oblasti je to obráceně než u hranice hřiště: kolíky jsou uvnitř oblasti a okraj vede po jejich vnějších okrajích.",
+   "photo": "img/foto/q035.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q036",
@@ -560,7 +619,10 @@
     "V poli"
    ],
    "answer": 1,
-   "explanation": "Když je míč ve dvou specifických oblastech, platí pořadí: trestná oblast, bankr, jamkoviště."
+   "explanation": "Když je míč ve dvou specifických oblastech, platí pořadí: trestná oblast, bankr, jamkoviště.",
+   "photo": "img/foto/q036.jpg",
+   "rulesFigurePage": 101,
+   "rulesFigureTitle": "Diagram 12.1 – Kdy je míč v bankru"
   },
   {
    "id": "q037",
@@ -575,7 +637,8 @@
     "Trestná oblast"
    ],
    "answer": 3,
-   "explanation": "Trestnou oblastí je každý otevřený vodní příkop na hřišti, i když je suchý a nevyznačený. Výbor ho ale může prohlásit za součást pole."
+   "explanation": "Trestnou oblastí je každý otevřený vodní příkop na hřišti, i když je suchý a nevyznačený. Výbor ho ale může prohlásit za součást pole.",
+   "photo": "img/foto/q037.jpg"
   },
   {
    "id": "q038",
@@ -590,7 +653,10 @@
     "Ne, ale máš beztrestnou úlevu na délku hole"
    ],
    "answer": 1,
-   "explanation": "Hraniční objekty se berou jako nepohyblivé a beztrestná úleva od nich není. Vytáhnout kolík kvůli lepší ráně znamená dvě trestné rány."
+   "explanation": "Hraniční objekty se berou jako nepohyblivé a beztrestná úleva od nich není. Vytáhnout kolík kvůli lepší ráně znamená dvě trestné rány.",
+   "photo": "img/foto/q038.jpg",
+   "rulesFigurePage": 164,
+   "rulesFigureTitle": "Diagram 18.2a – Kdy je míč mimo hřiště"
   },
   {
    "id": "q039",
@@ -605,7 +671,8 @@
     "Mrtvý brouk"
    ],
    "answer": 0,
-   "explanation": "Písek a volná zemina nejsou volné přírodní předměty. Odstranit je smíš jen na greenu."
+   "explanation": "Písek a volná zemina nejsou volné přírodní předměty. Odstranit je smíš jen na greenu.",
+   "photo": "img/foto/q039.jpg"
   },
   {
    "id": "q040",
@@ -620,7 +687,10 @@
     "Úlevu vzít můžeš, ale nemusíš"
    ],
    "answer": 0,
-   "explanation": "Cvičný green je nesprávné jamkoviště, pokud ho výbor místním pravidlem nevyčlení. Z nesprávného jamkoviště se hrát nesmí, úleva je povinná."
+   "explanation": "Cvičný green je nesprávné jamkoviště, pokud ho výbor místním pravidlem nevyčlení. Z nesprávného jamkoviště se hrát nesmí, úleva je povinná.",
+   "photo": "img/foto/q040.jpg",
+   "rulesFigurePage": 109,
+   "rulesFigureTitle": "Diagram 13.1f – Úleva od nesprávného jamkoviště"
   },
   {
    "id": "q041",
@@ -636,7 +706,8 @@
    ],
    "answer": 1,
    "explanation": "Limit je 14 holí. Víc jich nesmíš mít na začátku kola ani během něj.",
-   "weight": 3
+   "weight": 3,
+   "photo": "img/foto/q041.jpg"
   },
   {
    "id": "q042",
@@ -651,7 +722,8 @@
     "Vedeš 2 nahoru"
    ],
    "answer": 0,
-   "explanation": "Ve hře na jamky se stav zápasu upraví odečtením jedné jamky za každou jamku s porušením, nejvýše ale o dvě jamky za kolo."
+   "explanation": "Ve hře na jamky se stav zápasu upraví odečtením jedné jamky za každou jamku s porušením, nejvýše ale o dvě jamky za kolo.",
+   "photo": "img/foto/q042.jpg"
   },
   {
    "id": "q043",
@@ -667,7 +739,8 @@
    ],
    "answer": 3,
    "explanation": "Doplnit smíš až do 14, ale nesmíš tím zdržovat hru ani si půjčit hůl od někoho, kdo hraje na hřišti.",
-   "weight": 3
+   "weight": 3,
+   "photo": "img/foto/q043.jpg"
   },
   {
    "id": "q044",
@@ -682,7 +755,8 @@
     "Ano, ale jen jednu ránu za kolo"
    ],
    "answer": 2,
-   "explanation": "Nesmíš hrát holí, kterou používá kdokoli jiný na hřišti, i když hraje v jiné skupině nebo soutěži."
+   "explanation": "Nesmíš hrát holí, kterou používá kdokoli jiný na hřišti, i když hraje v jiné skupině nebo soutěži.",
+   "photo": "img/foto/q044.jpg"
   },
   {
    "id": "q045",
@@ -697,7 +771,8 @@
     "Nahradit ji jen tehdy, máš-li méně než 14 holí"
    ],
    "answer": 2,
-   "explanation": "Od roku 2023 smíš hůl poškozenou během kola opravit nebo nahradit, pokud jsi ji nepoškodil nevhodným zacházením. Když ji nahradíš, poškozenou vyřadíš ze hry."
+   "explanation": "Od roku 2023 smíš hůl poškozenou během kola opravit nebo nahradit, pokud jsi ji nepoškodil nevhodným zacházením. Když ji nahradíš, poškozenou vyřadíš ze hry.",
+   "photo": "img/foto/q045.jpg"
   },
   {
    "id": "q046",
@@ -712,7 +787,8 @@
     "Jsi diskvalifikován"
    ],
    "answer": 1,
-   "explanation": "Poškozená hůl se do konce kola bere jako vyhovující, takže s ní hrát smíš. Kvůli nevhodnému zacházení ji ale nesmíš opravit ani vyměnit."
+   "explanation": "Poškozená hůl se do konce kola bere jako vyhovující, takže s ní hrát smíš. Kvůli nevhodnému zacházení ji ale nesmíš opravit ani vyměnit.",
+   "photo": "img/foto/q046.jpg"
   },
   {
    "id": "q047",
@@ -727,7 +803,8 @@
     "Ano, kdykoli"
    ],
    "answer": 0,
-   "explanation": "Během jamky smíš vyměnit jen míč viditelně naseknutý nebo prasklý. Odřený nebo poškrábaný míč nestačí."
+   "explanation": "Během jamky smíš vyměnit jen míč viditelně naseknutý nebo prasklý. Odřený nebo poškrábaný míč nestačí.",
+   "photo": "img/foto/q047.jpg"
   },
   {
    "id": "q048",
@@ -742,7 +819,8 @@
     "Rána se počítá a hraješ největší kousek"
    ],
    "answer": 1,
-   "explanation": "Když se míč po ráně rozpadne, rána se nepočítá a bez trestu hraješ jiný míč z místa, odkud jsi hrál."
+   "explanation": "Když se míč po ráně rozpadne, rána se nepočítá a bez trestu hraješ jiný míč z místa, odkud jsi hrál.",
+   "photo": "img/foto/q048.jpg"
   },
   {
    "id": "q049",
@@ -757,7 +835,8 @@
     "Ano, kdykoli mezi jamkami"
    ],
    "answer": 3,
-   "explanation": "Každou jamku smíš začít jiným vyhovujícím míčem. Během jamky ho měnit smíš jen tehdy, když to pravidla dovolí."
+   "explanation": "Každou jamku smíš začít jiným vyhovujícím míčem. Během jamky ho měnit smíš jen tehdy, když to pravidla dovolí.",
+   "photo": "img/foto/q049.jpg"
   },
   {
    "id": "q050",
@@ -772,7 +851,10 @@
     "Jedna trestná rána a hraješ z místa předchozí rány"
    ],
    "answer": 3,
-   "explanation": "Ztracený míč znamená ztrátu rány a vzdálenosti. Pokud výbor přijal místní pravidlo E-5, máš navíc možnost dropnout u místa ztráty, ale za dvě trestné rány."
+   "explanation": "Ztracený míč znamená ztrátu rány a vzdálenosti. Pokud výbor přijal místní pravidlo E-5, máš navíc možnost dropnout u místa ztráty, ale za dvě trestné rány.",
+   "photo": "img/foto/q050.jpg",
+   "rulesFigurePage": 129,
+   "rulesFigureTitle": "Diagram 14.6 – Hraní z místa předchozí rány"
   },
   {
    "id": "q051",
@@ -787,7 +869,8 @@
     "Jedna trestná rána a vrátíš ho"
    ],
    "answer": 2,
-   "explanation": "Náhodné pohnutí míčem při hledání nebo identifikaci se netrestá. Míč vrátíš na původní, případně odhadnuté místo."
+   "explanation": "Náhodné pohnutí míčem při hledání nebo identifikaci se netrestá. Míč vrátíš na původní, případně odhadnuté místo.",
+   "photo": "img/foto/q051.jpg"
   },
   {
    "id": "q052",
@@ -802,7 +885,8 @@
     "Bez trestu"
    ],
    "answer": 0,
-   "explanation": "Zvednout míč k identifikaci bez označení polohy stojí jednu trestnou ránu."
+   "explanation": "Zvednout míč k identifikaci bez označení polohy stojí jednu trestnou ránu.",
+   "photo": "img/foto/q052.jpg"
   },
   {
    "id": "q053",
@@ -817,7 +901,8 @@
     "Bez trestu ho vrátíš"
    ],
    "answer": 2,
-   "explanation": "Výjimka bez trestu platí jen pro pohnutí během hledání. Tady jsi míč viděl a nehledal ho, takže je to jedna trestná rána a míč vrátíš."
+   "explanation": "Výjimka bez trestu platí jen pro pohnutí během hledání. Tady jsi míč viděl a nehledal ho, takže je to jedna trestná rána a míč vrátíš.",
+   "photo": "img/foto/q053.jpg"
   },
   {
    "id": "q054",
@@ -832,7 +917,8 @@
     "2 minuty navíc"
    ],
    "answer": 1,
-   "explanation": "Čas přerušení z dobrého důvodu se nepočítá, ale celkem máš na hledání pořád jen 3 minuty."
+   "explanation": "Čas přerušení z dobrého důvodu se nepočítá, ale celkem máš na hledání pořád jen 3 minuty.",
+   "photo": "img/foto/q054.jpg"
   },
   {
    "id": "q055",
@@ -847,7 +933,8 @@
     "Vybereš si, kterým míčem budeš pokračovat"
    ],
    "answer": 1,
-   "explanation": "Jakmile uvedeš do hry jiný míč se ztrátou rány a vzdálenosti, původní míč už není ve hře, i když se najde včas."
+   "explanation": "Jakmile uvedeš do hry jiný míč se ztrátou rány a vzdálenosti, původní míč už není ve hře, i když se najde včas.",
+   "photo": "img/foto/q055.jpg"
   },
   {
    "id": "q056",
@@ -862,7 +949,8 @@
     "Jedna trestná rána a dropneš"
    ],
    "answer": 2,
-   "explanation": "Míčem pohnul vnější vliv (zvíře) a je to jisté. Bez trestu se vrací na původní místo, i když se nenašel."
+   "explanation": "Míčem pohnul vnější vliv (zvíře) a je to jisté. Bez trestu se vrací na původní místo, i když se nenašel.",
+   "photo": "img/foto/q056.jpg"
   },
   {
    "id": "q057",
@@ -877,7 +965,8 @@
     "Kdykoli, když se ti rána nepovede"
    ],
    "answer": 2,
-   "explanation": "Provizorní míč šetří čas, když hrozí, že je míč mimo hřiště nebo ztracený mimo trestnou oblast."
+   "explanation": "Provizorní míč šetří čas, když hrozí, že je míč mimo hřiště nebo ztracený mimo trestnou oblast.",
+   "photo": "img/foto/q057.jpg"
   },
   {
    "id": "q058",
@@ -892,7 +981,8 @@
     "Zapsat to zapisovateli do lístku"
    ],
    "answer": 1,
-   "explanation": "Musíš použít slovo provizorní nebo jinak jasně dát najevo, že hraješ podle pravidla 18.3. Věta „hraju ještě jeden“ nestačí."
+   "explanation": "Musíš použít slovo provizorní nebo jinak jasně dát najevo, že hraješ podle pravidla 18.3. Věta „hraju ještě jeden“ nestačí.",
+   "photo": "img/foto/q058.jpg"
   },
   {
    "id": "q059",
@@ -907,7 +997,10 @@
     "Je to platný provizorní míč"
    ],
    "answer": 1,
-   "explanation": "Provizorní míč nesmíš hrát, když může být původní míč jen v trestné oblasti. Míč, který zahraješ, se stává míčem ve hře."
+   "explanation": "Provizorní míč nesmíš hrát, když může být původní míč jen v trestné oblasti. Míč, který zahraješ, se stává míčem ve hře.",
+   "photo": "img/foto/q059.jpg",
+   "rulesFigurePage": 156,
+   "rulesFigureTitle": "Diagram #1 17.1d – Úleva pro míč ve žluté trestné oblasti"
   },
   {
    "id": "q060",
@@ -922,7 +1015,8 @@
     "Hraješ původní míč, provizorní zvedneš"
    ],
    "answer": 3,
-   "explanation": "Když se původní míč najde včas na hřišti mimo trestnou oblast, musíš hrát jím a provizorního míče se vzdát."
+   "explanation": "Když se původní míč najde včas na hřišti mimo trestnou oblast, musíš hrát jím a provizorního míče se vzdát.",
+   "photo": "img/foto/q060.jpg"
   },
   {
    "id": "q061",
@@ -937,7 +1031,10 @@
     "Ano, pořád je provizorní"
    ],
    "answer": 3,
-   "explanation": "Provizorním míčem smíš hrát i opakovaně, dokud ho nezahraješ z místa bližšího jamce, než je odhadované místo původního míče."
+   "explanation": "Provizorním míčem smíš hrát i opakovaně, dokud ho nezahraješ z místa bližšího jamce, než je odhadované místo původního míče.",
+   "photo": "img/foto/q061.jpg",
+   "rulesFigurePage": 167,
+   "rulesFigureTitle": "Diagram 18.3c – Provizorní míč zahraný z místa blíže jamce"
   },
   {
    "id": "q062",
@@ -952,7 +1049,10 @@
     "Provizorní opustíš, platí původní míč"
    ],
    "answer": 3,
-   "explanation": "Když se původní míč najde v trestné oblasti, musíš provizorního míče zanechat. Původní pak hraješ, jak leží, nebo vezmeš úlevu s jednou trestnou ranou."
+   "explanation": "Když se původní míč najde v trestné oblasti, musíš provizorního míče zanechat. Původní pak hraješ, jak leží, nebo vezmeš úlevu s jednou trestnou ranou.",
+   "photo": "img/foto/q062.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q063",
@@ -967,7 +1067,10 @@
     "Ne, musíš vzít úlevu"
    ],
    "answer": 0,
-   "explanation": "Pravidla výslovně dovolují stát mimo hřiště a hrát míč, který je na hřišti."
+   "explanation": "Pravidla výslovně dovolují stát mimo hřiště a hrát míč, který je na hřišti.",
+   "photo": "img/foto/q063.jpg",
+   "rulesFigurePage": 164,
+   "rulesFigureTitle": "Diagram 18.2a – Kdy je míč mimo hřiště"
   },
   {
    "id": "q064",
@@ -982,7 +1085,10 @@
     "Ze žluté jednu, z červené dvě"
    ],
    "answer": 1,
-   "explanation": "Všechny možnosti úlevy z trestné oblasti stojí jednu trestnou ránu, ať je oblast žlutá, nebo červená."
+   "explanation": "Všechny možnosti úlevy z trestné oblasti stojí jednu trestnou ránu, ať je oblast žlutá, nebo červená.",
+   "photo": "img/foto/q064.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q065",
@@ -997,7 +1103,10 @@
     "Kamkoli na protější břeh"
    ],
    "answer": 1,
-   "explanation": "Výchozím bodem je odhadnuté místo, kde míč naposledy přešel okraj červené trestné oblasti. Ne blíž k jamce a mimo tu trestnou oblast."
+   "explanation": "Výchozím bodem je odhadnuté místo, kde míč naposledy přešel okraj červené trestné oblasti. Ne blíž k jamce a mimo tu trestnou oblast.",
+   "photo": "img/foto/q065.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q066",
@@ -1012,7 +1121,8 @@
     "Ne, dotknout se země stojí dvě rány"
    ],
    "answer": 1,
-   "explanation": "Od roku 2019 platí v trestné oblasti stejná pravidla jako v poli: smíš přiložit hůl i odstranit volné přírodní předměty."
+   "explanation": "Od roku 2019 platí v trestné oblasti stejná pravidla jako v poli: smíš přiložit hůl i odstranit volné přírodní předměty.",
+   "photo": "img/foto/q066.jpg"
   },
   {
    "id": "q067",
@@ -1027,7 +1137,10 @@
     "Dropneš u rybníka se dvěma trestnými ranami"
    ],
    "answer": 0,
-   "explanation": "Úlevu z trestné oblasti smíš vzít jen tehdy, když je známo nebo prakticky jisté, že míč v ní je. Jinak je míč ztracený."
+   "explanation": "Úlevu z trestné oblasti smíš vzít jen tehdy, když je známo nebo prakticky jisté, že míč v ní je. Jinak je míč ztracený.",
+   "photo": "img/foto/q067.jpg",
+   "rulesFigurePage": 156,
+   "rulesFigureTitle": "Diagram #1 17.1d – Úleva pro míč ve žluté trestné oblasti"
   },
   {
    "id": "q068",
@@ -1042,7 +1155,10 @@
     "Žádné, stačí do dvou délek hole od vody"
    ],
    "answer": 1,
-   "explanation": "Místo, kde míč naposledy přešel okraj, musí ležet mezi jamkou a místem dropu. Jak daleko dozadu půjdeš, omezené není."
+   "explanation": "Místo, kde míč naposledy přešel okraj, musí ležet mezi jamkou a místem dropu. Jak daleko dozadu půjdeš, omezené není.",
+   "photo": "img/foto/q068.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q069",
@@ -1057,7 +1173,8 @@
     "Ne, v trestné oblasti ne"
    ],
    "answer": 3,
-   "explanation": "Úleva pro nehratelný míč v trestné oblasti není. Zbývá hrát, jak leží, nebo vzít úlevu z trestné oblasti s jednou ranou."
+   "explanation": "Úleva pro nehratelný míč v trestné oblasti není. Zbývá hrát, jak leží, nebo vzít úlevu z trestné oblasti s jednou ranou.",
+   "photo": "img/foto/q069.jpg"
   },
   {
    "id": "q070",
@@ -1072,7 +1189,10 @@
     "Ne, jen úleva s trestem"
    ],
    "answer": 3,
-   "explanation": "Beztrestná úleva od abnormálního stavu hřiště platí všude kromě trestné oblasti. Tam máš jen úlevu s trestem podle pravidla 17."
+   "explanation": "Beztrestná úleva od abnormálního stavu hřiště platí všude kromě trestné oblasti. Tam máš jen úlevu s trestem podle pravidla 17.",
+   "photo": "img/foto/q070.jpg",
+   "rulesFigurePage": 157,
+   "rulesFigureTitle": "Diagram #2 17.1d – Úleva pro míč v červené trestné oblasti"
   },
   {
    "id": "q071",
@@ -1087,7 +1207,8 @@
     "Bez trestu uvnitř oblasti, nebo s ranou mimo ni"
    ],
    "answer": 3,
-   "explanation": "U nebezpečného zvířete je úleva možná i v trestné oblasti: beztrestně uvnitř oblasti, nebo s jednou trestnou ranou mimo ni."
+   "explanation": "U nebezpečného zvířete je úleva možná i v trestné oblasti: beztrestně uvnitř oblasti, nebo s jednou trestnou ranou mimo ni.",
+   "photo": "img/foto/q071.jpg"
   },
   {
    "id": "q072",
@@ -1102,7 +1223,8 @@
     "Jen směrem k jamce"
    ],
    "answer": 1,
-   "explanation": "Míč pohybující se ve vodě v trestné oblasti smíš beztrestně zahrát. Nesmíš ale zbytečně čekat, až ho proud posune na lepší místo."
+   "explanation": "Míč pohybující se ve vodě v trestné oblasti smíš beztrestně zahrát. Nesmíš ale zbytečně čekat, až ho proud posune na lepší místo.",
+   "photo": "img/foto/q072.jpg"
   },
   {
    "id": "q073",
@@ -1117,7 +1239,8 @@
     "Žádný, ale rána se počítá"
    ],
    "answer": 1,
-   "explanation": "Výjimka: zahrát nesprávný míč, který se pohybuje ve vodě v trestné oblasti, se netrestá. Rána se nepočítá a pokračuješ svým míčem."
+   "explanation": "Výjimka: zahrát nesprávný míč, který se pohybuje ve vodě v trestné oblasti, se netrestá. Rána se nepočítá a pokračuješ svým míčem.",
+   "photo": "img/foto/q073.jpg"
   },
   {
    "id": "q074",
@@ -1132,7 +1255,8 @@
     "Zapisovatel"
    ],
    "answer": 1,
-   "explanation": "Za nehratelný smí míč prohlásit jedině hráč sám."
+   "explanation": "Za nehratelný smí míč prohlásit jedině hráč sám.",
+   "photo": "img/foto/q074.jpg"
   },
   {
    "id": "q075",
@@ -1147,7 +1271,10 @@
     "Dvě, každá za dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Ztráta rány a vzdálenosti, úleva dozadu po spojnici a úleva do strany. Vždy s jednou trestnou ranou."
+   "explanation": "Ztráta rány a vzdálenosti, úleva dozadu po spojnici a úleva do strany. Vždy s jednou trestnou ranou.",
+   "photo": "img/foto/q075.jpg",
+   "rulesFigurePage": 171,
+   "rulesFigureTitle": "Diagram 19.2 – Nehratelný míč v poli"
   },
   {
    "id": "q076",
@@ -1162,7 +1289,10 @@
     "Tři trestné rány"
    ],
    "answer": 0,
-   "explanation": "Úleva dozadu po spojnici mimo bankr je u nehratelného míče speciální možnost za dvě trestné rány."
+   "explanation": "Úleva dozadu po spojnici mimo bankr je u nehratelného míče speciální možnost za dvě trestné rány.",
+   "photo": "img/foto/q076.jpg",
+   "rulesFigurePage": 172,
+   "rulesFigureTitle": "Diagram 19.3 – Nehratelný míč v bankru"
   },
   {
    "id": "q077",
@@ -1177,7 +1307,10 @@
     "Na nejbližším místě v poli"
    ],
    "answer": 2,
-   "explanation": "Úleva do strany i dozadu za jednu ránu je v bankru možná, ale míč musíš dropnout v bankru a musí v něm zůstat."
+   "explanation": "Úleva do strany i dozadu za jednu ránu je v bankru možná, ale míč musíš dropnout v bankru a musí v něm zůstat.",
+   "photo": "img/foto/q077.jpg",
+   "rulesFigurePage": 172,
+   "rulesFigureTitle": "Diagram 19.3 – Nehratelný míč v bankru"
   },
   {
    "id": "q078",
@@ -1192,7 +1325,8 @@
     "Ano, ale za dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Úlevu dozadu nebo do strany lze vzít jen u míče, jehož polohu znáš. Ztrátu rány a vzdálenosti smíš použít i bez nalezení míče."
+   "explanation": "Úlevu dozadu nebo do strany lze vzít jen u míče, jehož polohu znáš. Ztrátu rány a vzdálenosti smíš použít i bez nalezení míče.",
+   "photo": "img/foto/q078.jpg"
   },
   {
    "id": "q079",
@@ -1207,7 +1341,8 @@
     "Ano, ale jen ráno"
    ],
    "answer": 0,
-   "explanation": "Rosa ani jinovatka nejsou náhodná voda. Náhodná voda je voda viditelně nahromaděná na povrchu."
+   "explanation": "Rosa ani jinovatka nejsou náhodná voda. Náhodná voda je voda viditelně nahromaděná na povrchu.",
+   "photo": "img/foto/q079.jpg"
   },
   {
    "id": "q080",
@@ -1222,7 +1357,8 @@
     "Trestná oblast"
    ],
    "answer": 0,
-   "explanation": "Materiál navršený k pozdějšímu odvozu je půdou v opravě i bez označení."
+   "explanation": "Materiál navršený k pozdějšímu odvozu je půdou v opravě i bez označení.",
+   "photo": "img/foto/q080.jpg"
   },
   {
    "id": "q081",
@@ -1237,7 +1373,8 @@
     "Hraniční objekty, nedílné součásti a ploty"
    ],
    "answer": 2,
-   "explanation": "Abnormální stav hřiště jsou čtyři věci: díra po zvířeti, půda v opravě, nepohyblivá závada a náhodná voda."
+   "explanation": "Abnormální stav hřiště jsou čtyři věci: díra po zvířeti, půda v opravě, nepohyblivá závada a náhodná voda.",
+   "photo": "img/foto/q081.jpg"
   },
   {
    "id": "q082",
@@ -1252,7 +1389,8 @@
     "Vždy přesně jedním metrem"
    ],
    "answer": 1,
-   "explanation": "Délka hole je délka tvé nejdelší hole z bagu, kromě patru. Obvykle je to tedy drajvr."
+   "explanation": "Délka hole je délka tvé nejdelší hole z bagu, kromě patru. Obvykle je to tedy drajvr.",
+   "photo": "img/foto/q082.jpg"
   },
   {
    "id": "q083",
@@ -1267,7 +1405,10 @@
     "Z výšky pasu"
    ],
    "answer": 2,
-   "explanation": "Od roku 2019 se dropuje z výšky kolen. Míč musí padat přímo dolů a nesmíš ho házet ani roztáčet."
+   "explanation": "Od roku 2019 se dropuje z výšky kolen. Míč musí padat přímo dolů a nesmíš ho házet ani roztáčet.",
+   "photo": "img/foto/q083.jpg",
+   "rulesFigurePage": 121,
+   "rulesFigureTitle": "Diagram 14.3b – Spouštění z výšky kolen"
   },
   {
    "id": "q084",
@@ -1282,7 +1423,10 @@
     "Kdokoli z flightu"
    ],
    "answer": 2,
-   "explanation": "Míč musí dropnout hráč sám. Nosič ani nikdo jiný to za něj udělat nesmí."
+   "explanation": "Míč musí dropnout hráč sám. Nosič ani nikdo jiný to za něj udělat nesmí.",
+   "photo": "img/foto/q084.jpg",
+   "rulesFigurePage": 121,
+   "rulesFigureTitle": "Diagram 14.3b – Spouštění z výšky kolen"
   },
   {
    "id": "q085",
@@ -1297,7 +1441,10 @@
     "Dropuješ, dokud se nezastaví uvnitř"
    ],
    "answer": 0,
-   "explanation": "Když se dropnutý míč zastaví mimo oblast úlevy, dropneš znovu. Když ani druhý drop nevyjde, míč položíš."
+   "explanation": "Když se dropnutý míč zastaví mimo oblast úlevy, dropneš znovu. Když ani druhý drop nevyjde, míč položíš.",
+   "photo": "img/foto/q085.jpg",
+   "rulesFigurePage": 124,
+   "rulesFigureTitle": "Diagram #1 14.3c – Míč musí být spuštěn v oblasti úlevy"
   },
   {
    "id": "q086",
@@ -1312,7 +1459,10 @@
     "Hraješ míč tam, kde se zastavil"
    ],
    "answer": 1,
-   "explanation": "Po dvou nepovedených dropech položíš míč na místo, kde se při druhém dropu poprvé dotkl země."
+   "explanation": "Po dvou nepovedených dropech položíš míč na místo, kde se při druhém dropu poprvé dotkl země.",
+   "photo": "img/foto/q086.jpg",
+   "rulesFigurePage": 124,
+   "rulesFigureTitle": "Diagram #1 14.3c – Míč musí být spuštěn v oblasti úlevy"
   },
   {
    "id": "q087",
@@ -1327,7 +1477,10 @@
     "Úleva je hotová, hraješ bez trestu"
    ],
    "answer": 3,
-   "explanation": "Když se míč po dopadu na zem náhodou dotkne tebe nebo výstroje, nevadí to. Hlavní je, že se zastavil v oblasti úlevy."
+   "explanation": "Když se míč po dopadu na zem náhodou dotkne tebe nebo výstroje, nevadí to. Hlavní je, že se zastavil v oblasti úlevy.",
+   "photo": "img/foto/q087.jpg",
+   "rulesFigurePage": 124,
+   "rulesFigureTitle": "Diagram #1 14.3c – Míč musí být spuštěn v oblasti úlevy"
   },
   {
    "id": "q088",
@@ -1342,7 +1495,10 @@
     "Jedna trestná rána a hraješ, jak leží"
    ],
    "answer": 1,
-   "explanation": "Míč se před dopadem nesmí dotknout tvého těla ani výstroje. Takový drop je nesprávný, opakuje se a nepočítá se do dvou pokusů."
+   "explanation": "Míč se před dopadem nesmí dotknout tvého těla ani výstroje. Takový drop je nesprávný, opakuje se a nepočítá se do dvou pokusů.",
+   "photo": "img/foto/q088.jpg",
+   "rulesFigurePage": 121,
+   "rulesFigureTitle": "Diagram 14.3b – Spouštění z výšky kolen"
   },
   {
    "id": "q089",
@@ -1357,7 +1513,10 @@
     "Jedna trestná rána"
    ],
    "answer": 3,
-   "explanation": "Když zahraješ nesprávně dropnutý míč z oblasti úlevy, dostaneš jednu trestnou ránu. Z nesprávného místa jsi ale nehrál."
+   "explanation": "Když zahraješ nesprávně dropnutý míč z oblasti úlevy, dostaneš jednu trestnou ránu. Z nesprávného místa jsi ale nehrál.",
+   "photo": "img/foto/q089.jpg",
+   "rulesFigurePage": 121,
+   "rulesFigureTitle": "Diagram 14.3b – Spouštění z výšky kolen"
   },
   {
    "id": "q090",
@@ -1372,7 +1531,10 @@
     "Musíš ho hrát a připsat si ránu"
    ],
    "answer": 0,
-   "explanation": "Chybu při dropu smíš beztrestně opravit, dokud míč nezahraješ."
+   "explanation": "Chybu při dropu smíš beztrestně opravit, dokud míč nezahraješ.",
+   "photo": "img/foto/q090.jpg",
+   "rulesFigurePage": 121,
+   "rulesFigureTitle": "Diagram 14.3b – Spouštění z výšky kolen"
   },
   {
    "id": "q091",
@@ -1387,7 +1549,8 @@
     "Ano, s jednou trestnou ranou"
    ],
    "answer": 1,
-   "explanation": "Při vracení na místo se musí použít původní míč. Jiný míč smíš vzít třeba při dropu v rámci úlevy."
+   "explanation": "Při vracení na místo se musí použít původní míč. Jiný míč smíš vzít třeba při dropu v rámci úlevy.",
+   "photo": "img/foto/q091.jpg"
   },
   {
    "id": "q092",
@@ -1402,7 +1565,10 @@
     "Musíš vyjít z místa u keře"
    ],
    "answer": 3,
-   "explanation": "Nejbližší místo úplné úlevy je to nejbližší, ne to nejlepší. Když se ti nelíbí, můžeš místo úlevy hrát z cesty."
+   "explanation": "Nejbližší místo úplné úlevy je to nejbližší, ne to nejlepší. Když se ti nelíbí, můžeš místo úlevy hrát z cesty.",
+   "photo": "img/foto/q092.jpg",
+   "rulesFigurePage": 142,
+   "rulesFigureTitle": "Diagram 16.1a – Kdy je možná úleva od abnormálního stavu hřiště"
   },
   {
    "id": "q093",
@@ -1417,7 +1583,8 @@
     "Jedna trestná rána a vrátíš ho"
    ],
    "answer": 2,
-   "explanation": "Od roku 2023: když dropnutý míč odnese vítr nebo voda do jiné oblasti hřiště nebo mimo hřiště, vrací se na místo, kde se zastavil."
+   "explanation": "Od roku 2023: když dropnutý míč odnese vítr nebo voda do jiné oblasti hřiště nebo mimo hřiště, vrací se na místo, kde se zastavil.",
+   "photo": "img/foto/q093.jpg"
   },
   {
    "id": "q094",
@@ -1432,7 +1599,10 @@
     "Vzít beztrestnou úlevu"
    ],
    "answer": 3,
-   "explanation": "Zabořený míč v poli: beztrestně dropneš do délky hole od místa těsně za důlkem, ne blíž k jamce."
+   "explanation": "Zabořený míč v poli: beztrestně dropneš do délky hole od místa těsně za důlkem, ne blíž k jamce.",
+   "photo": "img/foto/q094.jpg",
+   "rulesFigurePage": 151,
+   "rulesFigureTitle": "Diagram 16.3b – Úleva pro zabořený míč"
   },
   {
    "id": "q095",
@@ -1447,7 +1617,10 @@
     "Ano, kdekoli v poli"
    ],
    "answer": 3,
-   "explanation": "Úleva platí v celém poli, tedy i v rafu. Místní pravidlo ji ale může omezit jen na plochy posečené na výšku fairway."
+   "explanation": "Úleva platí v celém poli, tedy i v rafu. Místní pravidlo ji ale může omezit jen na plochy posečené na výšku fairway.",
+   "photo": "img/foto/q095.jpg",
+   "rulesFigurePage": 150,
+   "rulesFigureTitle": "Diagram 16.3a – Kdy je míč zabořený"
   },
   {
    "id": "q096",
@@ -1462,7 +1635,10 @@
     "Ano, bez trestu mimo bankr"
    ],
    "answer": 1,
-   "explanation": "Úleva pro zabořený míč platí jen v poli. V bankru hraješ, jak leží, nebo použiješ úlevu pro nehratelný míč."
+   "explanation": "Úleva pro zabořený míč platí jen v poli. V bankru hraješ, jak leží, nebo použiješ úlevu pro nehratelný míč.",
+   "photo": "img/foto/q096.jpg",
+   "rulesFigurePage": 150,
+   "rulesFigureTitle": "Diagram 16.3a – Kdy je míč zabořený"
   },
   {
    "id": "q097",
@@ -1477,7 +1653,10 @@
     "Ano, ale jen na fairway"
    ],
    "answer": 1,
-   "explanation": "Zabořený je jen míč ve vlastním důlku po dopadu. Když ho zarazíš do země, aniž by vzlétl, úleva není."
+   "explanation": "Zabořený je jen míč ve vlastním důlku po dopadu. Když ho zarazíš do země, aniž by vzlétl, úleva není.",
+   "photo": "img/foto/q097.jpg",
+   "rulesFigurePage": 150,
+   "rulesFigureTitle": "Diagram 16.3a – Kdy je míč zabořený"
   },
   {
    "id": "q098",
@@ -1492,7 +1671,10 @@
     "Ano, ale s jednou trestnou ranou"
    ],
    "answer": 1,
-   "explanation": "Umělá cesta je nepohyblivá závada a od ní máš beztrestnou úlevu, pokud výbor neurčil jinak."
+   "explanation": "Umělá cesta je nepohyblivá závada a od ní máš beztrestnou úlevu, pokud výbor neurčil jinak.",
+   "photo": "img/foto/q098.jpg",
+   "rulesFigurePage": 142,
+   "rulesFigureTitle": "Diagram 16.1a – Kdy je možná úleva od abnormálního stavu hřiště"
   },
   {
    "id": "q099",
@@ -1507,7 +1689,10 @@
     "Vzít beztrestnou úlevu"
    ],
    "answer": 3,
-   "explanation": "Půda v opravě je abnormální stav hřiště. Smíš hrát, jak leží (pokud to výbor nezakázal), nebo vzít beztrestnou úlevu."
+   "explanation": "Půda v opravě je abnormální stav hřiště. Smíš hrát, jak leží (pokud to výbor nezakázal), nebo vzít beztrestnou úlevu.",
+   "photo": "img/foto/q099.jpg",
+   "rulesFigurePage": 143,
+   "rulesFigureTitle": "Diagram 16.1b – Úleva od abnormálního stavu hřiště v poli"
   },
   {
    "id": "q100",
@@ -1522,7 +1707,10 @@
     "Ne, krtinec je volný přírodní předmět"
    ],
    "answer": 2,
-   "explanation": "Díra po zvířeti včetně vyhrabané hlíny je abnormální stav hřiště. Úleva platí, když ti překáží v postoji nebo švihu. Místní pravidlo může úlevu jen kvůli postoji vyloučit."
+   "explanation": "Díra po zvířeti včetně vyhrabané hlíny je abnormální stav hřiště. Úleva platí, když ti překáží v postoji nebo švihu. Místní pravidlo může úlevu jen kvůli postoji vyloučit.",
+   "photo": "img/foto/q100.jpg",
+   "rulesFigurePage": 142,
+   "rulesFigureTitle": "Diagram 16.1a – Kdy je možná úleva od abnormálního stavu hřiště"
   },
   {
    "id": "q101",
@@ -1537,7 +1725,10 @@
     "Ne, linie hry nestačí"
    ],
    "answer": 3,
-   "explanation": "Mimo green se úleva od abnormálního stavu kvůli linii hry nebere. Platí jen, když se ho míč dotýká nebo překáží v postoji či švihu."
+   "explanation": "Mimo green se úleva od abnormálního stavu kvůli linii hry nebere. Platí jen, když se ho míč dotýká nebo překáží v postoji či švihu.",
+   "photo": "img/foto/q101.jpg",
+   "rulesFigurePage": 142,
+   "rulesFigureTitle": "Diagram 16.1a – Kdy je možná úleva od abnormálního stavu hřiště"
   },
   {
    "id": "q102",
@@ -1552,7 +1743,10 @@
     "Dropnout míč do délky hole"
    ],
    "answer": 2,
-   "explanation": "Na greenu platí úleva i kvůli linii hry. Míč se nedropuje, ale položí se na nejbližší místo úplné úlevy, které může být i mimo green."
+   "explanation": "Na greenu platí úleva i kvůli linii hry. Míč se nedropuje, ale položí se na nejbližší místo úplné úlevy, které může být i mimo green.",
+   "photo": "img/foto/q102.jpg",
+   "rulesFigurePage": 146,
+   "rulesFigureTitle": "Diagram 16.1d – Úleva od abnormálního stavu hřiště na greenu"
   },
   {
    "id": "q103",
@@ -1567,7 +1761,10 @@
     "Jen hrát, jak leží, v bankru úleva není"
    ],
    "answer": 0,
-   "explanation": "V bankru máš beztrestnou úlevu uvnitř bankru, nebo za jednu trestnou ránu úlevu dozadu po spojnici mimo bankr."
+   "explanation": "V bankru máš beztrestnou úlevu uvnitř bankru, nebo za jednu trestnou ránu úlevu dozadu po spojnici mimo bankr.",
+   "photo": "img/foto/q103.jpg",
+   "rulesFigurePage": 145,
+   "rulesFigureTitle": "Diagram 16.1c – Úleva od abnormálního stavu hřiště v bankru"
   },
   {
    "id": "q104",
@@ -1582,7 +1779,8 @@
     "Bez trestu úlevu od místa, kde míč přešel okraj"
    ],
    "answer": 3,
-   "explanation": "Když je známo nebo prakticky jisté, že míč je v abnormálním stavu hřiště, smíš beztrestně vzít úlevu od místa, kde naposledy přešel jeho okraj."
+   "explanation": "Když je známo nebo prakticky jisté, že míč je v abnormálním stavu hřiště, smíš beztrestně vzít úlevu od místa, kde naposledy přešel jeho okraj.",
+   "photo": "img/foto/q104.jpg"
   },
   {
    "id": "q105",
@@ -1597,7 +1795,10 @@
     "Ano, cesta ti překáží v postoji"
    ],
    "answer": 0,
-   "explanation": "Úleva není, když je zahrání míče zjevně nesmyslné kvůli něčemu, od čeho úlevu nemáš, tady kvůli keři."
+   "explanation": "Úleva není, když je zahrání míče zjevně nesmyslné kvůli něčemu, od čeho úlevu nemáš, tady kvůli keři.",
+   "photo": "img/foto/q105.jpg",
+   "rulesFigurePage": 142,
+   "rulesFigureTitle": "Diagram 16.1a – Kdy je možná úleva od abnormálního stavu hřiště"
   },
   {
    "id": "q106",
@@ -1612,7 +1813,8 @@
     "Nic, na greenu se míč zvedat nesmí"
    ],
    "answer": 1,
-   "explanation": "Před zvednutím musíš polohu míče označit markovátkem nebo holí. Jinak je to jedna trestná rána."
+   "explanation": "Před zvednutím musíš polohu míče označit markovátkem nebo holí. Jinak je to jedna trestná rána.",
+   "photo": "img/foto/q106.jpg"
   },
   {
    "id": "q107",
@@ -1627,7 +1829,8 @@
     "Jen když ji udělal tvůj míč"
    ],
    "answer": 0,
-   "explanation": "Poškození greenu, jako stopy po dopadu míče, smíš opravit kdykoli, i v linii patu."
+   "explanation": "Poškození greenu, jako stopy po dopadu míče, smíš opravit kdykoli, i v linii patu.",
+   "photo": "img/foto/q107.jpg"
   },
   {
    "id": "q108",
@@ -1642,7 +1845,8 @@
     "Ano, ale s jednou trestnou ranou"
    ],
    "answer": 0,
-   "explanation": "Od roku 2019 se otisky bot počítají mezi poškození greenu, které smíš opravit."
+   "explanation": "Od roku 2019 se otisky bot počítají mezi poškození greenu, které smíš opravit.",
+   "photo": "img/foto/q108.jpg"
   },
   {
    "id": "q109",
@@ -1657,7 +1861,8 @@
     "Ne, to není poškození"
    ],
    "answer": 3,
-   "explanation": "Provzdušňovací díry, stejně jako přírodní nerovnosti nebo běžné opotřebení jamky, se za poškození greenu nepovažují."
+   "explanation": "Provzdušňovací díry, stejně jako přírodní nerovnosti nebo běžné opotřebení jamky, se za poškození greenu nepovažují.",
+   "photo": "img/foto/q109.jpg"
   },
   {
    "id": "q110",
@@ -1672,7 +1877,8 @@
     "Bez trestu, hraješ, jak leží"
    ],
    "answer": 3,
-   "explanation": "Od roku 2019 smíš patovat s praporkem v jamce. Když míč tyč trefí, trest není."
+   "explanation": "Od roku 2019 smíš patovat s praporkem v jamce. Když míč tyč trefí, trest není.",
+   "photo": "img/foto/q110.jpg"
   },
   {
    "id": "q111",
@@ -1687,7 +1893,8 @@
     "Ne, musíš ho dopatovat"
    ],
    "answer": 1,
-   "explanation": "Když se míč opírá o praporek a jakákoli jeho část je v jamce pod úrovní povrchu greenu, je dohraný."
+   "explanation": "Když se míč opírá o praporek a jakákoli jeho část je v jamce pod úrovní povrchu greenu, je dohraný.",
+   "photo": "img/foto/q111.jpg"
   },
   {
    "id": "q112",
@@ -1702,7 +1909,8 @@
     "Musíš ho vrátit na hranu a dopatovat"
    ],
    "answer": 0,
-   "explanation": "Na dojití k jamce máš přiměřený čas a pak 10 vteřin. Když míč spadne až potom, dohrál jsi, ale s jednou trestnou ranou."
+   "explanation": "Na dojití k jamce máš přiměřený čas a pak 10 vteřin. Když míč spadne až potom, dohrál jsi, ale s jednou trestnou ranou.",
+   "photo": "img/foto/q112.jpg"
   },
   {
    "id": "q113",
@@ -1717,7 +1925,8 @@
     "Bez trestu ho vrátíš"
    ],
    "answer": 3,
-   "explanation": "Náhodné pohnutí míčem nebo markovátkem na greenu se netrestá. Míč vrátíš na původní místo."
+   "explanation": "Náhodné pohnutí míčem nebo markovátkem na greenu se netrestá. Míč vrátíš na původní místo.",
+   "photo": "img/foto/q113.jpg"
   },
   {
    "id": "q114",
@@ -1732,7 +1941,8 @@
     "Hraješ z nového místa, pohnul s ním vítr"
    ],
    "answer": 1,
-   "explanation": "Když se na greenu pohne míč, který už jsi zvedl a vrátil, vrací se na původní místo, ať ho pohnulo cokoli."
+   "explanation": "Když se na greenu pohne míč, který už jsi zvedl a vrátil, vrací se na původní místo, ať ho pohnulo cokoli.",
+   "photo": "img/foto/q114.jpg"
   },
   {
    "id": "q115",
@@ -1747,7 +1957,8 @@
     "Hraješ z nového místa"
    ],
    "answer": 3,
-   "explanation": "Když míčem, který jsi ještě nezvedl a nevrátil, pohne vítr, hraješ ho bez trestu z nového místa."
+   "explanation": "Když míčem, který jsi ještě nezvedl a nevrátil, pohne vítr, hraješ ho bez trestu z nového místa.",
+   "photo": "img/foto/q115.jpg"
   },
   {
    "id": "q116",
@@ -1762,7 +1973,8 @@
     "Ty, dvě trestné rány"
    ],
    "answer": 3,
-   "explanation": "Ve hře na rány je to všeobecný trest pro toho, kdo patoval. Svůj míč hraješ, jak leží, a spoluhráč vrátí svůj na původní místo."
+   "explanation": "Ve hře na rány je to všeobecný trest pro toho, kdo patoval. Svůj míč hraješ, jak leží, a spoluhráč vrátí svůj na původní místo.",
+   "photo": "img/foto/q116.jpg"
   },
   {
    "id": "q117",
@@ -1777,7 +1989,8 @@
     "Ty dostáváš dvě trestné rány"
    ],
    "answer": 0,
-   "explanation": "Trest za trefení míče na greenu platí jen ve hře na rány. Ve hře na jamky se to netrestá, soupeř svůj míč vrátí."
+   "explanation": "Trest za trefení míče na greenu platí jen ve hře na rány. Ve hře na jamky se to netrestá, soupeř svůj míč vrátí.",
+   "photo": "img/foto/q117.jpg"
   },
   {
    "id": "q118",
@@ -1792,7 +2005,8 @@
     "Dvě trestné rány"
    ],
    "answer": 3,
-   "explanation": "Zkoušet povrch greenu hlazením nebo kutálením míče je během jamky zakázané. Trest jsou dvě rány."
+   "explanation": "Zkoušet povrch greenu hlazením nebo kutálením míče je během jamky zakázané. Trest jsou dvě rány.",
+   "photo": "img/foto/q118.jpg"
   },
   {
    "id": "q119",
@@ -1807,7 +2021,8 @@
     "Hrát, jak leží, opravit to smíš až po patu"
    ],
    "answer": 0,
-   "explanation": "Na greenu míč smíš zvednout a očistit a stopu po dopadu opravit. Pak míč vrátíš na původní místo."
+   "explanation": "Na greenu míč smíš zvednout a očistit a stopu po dopadu opravit. Pak míč vrátíš na původní místo.",
+   "photo": "img/foto/q119.jpg"
   },
   {
    "id": "q120",
@@ -1822,7 +2037,8 @@
     "Dropneš míč v místě zásahu"
    ],
    "answer": 2,
-   "explanation": "Když míč zahraný z greenu náhodou trefí zvíře (kromě hmyzu a podobně), jinou osobu nebo pohyblivou závadu, rána se opakuje."
+   "explanation": "Když míč zahraný z greenu náhodou trefí zvíře (kromě hmyzu a podobně), jinou osobu nebo pohyblivou závadu, rána se opakuje.",
+   "photo": "img/foto/q120.jpg"
   },
   {
    "id": "q121",
@@ -1837,7 +2053,8 @@
     "Ne, v bankru nikdy"
    ],
    "answer": 2,
-   "explanation": "Od roku 2019 smíš v bankru odstranit volné přírodní předměty. Jen pozor, abys tím nepohnul míčem."
+   "explanation": "Od roku 2019 smíš v bankru odstranit volné přírodní předměty. Jen pozor, abys tím nepohnul míčem.",
+   "photo": "img/foto/q121.jpg"
   },
   {
    "id": "q122",
@@ -1852,7 +2069,8 @@
     "Ne, jsou to dvě trestné rány"
    ],
    "answer": 3,
-   "explanation": "V bankru se nesmíš dotknout písku holí před míčem ani za ním, při cvičném švihu ani při nápřahu."
+   "explanation": "V bankru se nesmíš dotknout písku holí před míčem ani za ním, při cvičném švihu ani při nápřahu.",
+   "photo": "img/foto/q122.jpg"
   },
   {
    "id": "q123",
@@ -1867,7 +2085,10 @@
     "Když leží na trávě uvnitř okraje bankru"
    ],
    "answer": 2,
-   "explanation": "Stačí dotyk s pískem uvnitř okraje bankru. Míč na trávě uvnitř okraje, který se písku nedotýká, v bankru není."
+   "explanation": "Stačí dotyk s pískem uvnitř okraje bankru. Míč na trávě uvnitř okraje, který se písku nedotýká, v bankru není.",
+   "photo": "img/foto/q123.jpg",
+   "rulesFigurePage": 101,
+   "rulesFigureTitle": "Diagram 12.1 – Kdy je míč v bankru"
   },
   {
    "id": "q124",
@@ -1882,7 +2103,8 @@
     "Žádný, pokud tím nic nezlepšíš"
    ],
    "answer": 3,
-   "explanation": "Udeřit do písku z frustrace se netrestá. Trest by byl, kdyby sis tím zlepšil podmínky pro další ránu."
+   "explanation": "Udeřit do písku z frustrace se netrestá. Trest by byl, kdyby sis tím zlepšil podmínky pro další ránu.",
+   "photo": "img/foto/q124.jpg"
   },
   {
    "id": "q125",
@@ -1897,7 +2119,8 @@
     "Žádný, rukou písek zkoušet smíš"
    ],
    "answer": 0,
-   "explanation": "V bankru se nesmíš úmyslně dotknout písku, abys zjistil jeho stav. Trest jsou dvě rány."
+   "explanation": "V bankru se nesmíš úmyslně dotknout písku, abys zjistil jeho stav. Trest jsou dvě rány.",
+   "photo": "img/foto/q125.jpg"
   },
   {
    "id": "q126",
@@ -1912,7 +2135,8 @@
     "Jen místo, kde jsi stál"
    ],
    "answer": 2,
-   "explanation": "Jakmile je míč z bankru venku, omezení pro bankr skončila. Uhrabat ho smíš, i když přes něj budeš hrát."
+   "explanation": "Jakmile je míč z bankru venku, omezení pro bankr skončila. Uhrabat ho smíš, i když přes něj budeš hrát.",
+   "photo": "img/foto/q126.jpg"
   },
   {
    "id": "q127",
@@ -1927,7 +2151,10 @@
     "Hraješ ho z nového místa"
    ],
    "answer": 1,
-   "explanation": "Když se míč pohne při odstraňování pohyblivé závady, trest není a míč se vrací. Když na místě nezůstane, položíš ho na nejbližší místo v bankru, kde zůstane, ne blíž k jamce."
+   "explanation": "Když se míč pohne při odstraňování pohyblivé závady, trest není a míč se vrací. Když na místě nezůstane, položíš ho na nejbližší místo v bankru, kde zůstane, ne blíž k jamce.",
+   "photo": "img/foto/q127.jpg",
+   "rulesFigurePage": 136,
+   "rulesFigureTitle": "Diagram #1 15.2a – Míč se pohne při odstranění pohyblivé závady"
   },
   {
    "id": "q128",
@@ -1942,7 +2169,8 @@
     "Jedna trestná rána"
    ],
    "answer": 0,
-   "explanation": "Dotknout se písku holí při cvičném švihu je v bankru zakázané, ať je to kdekoli v bankru."
+   "explanation": "Dotknout se písku holí při cvičném švihu je v bankru zakázané, ať je to kdekoli v bankru.",
+   "photo": "img/foto/q128.jpg"
   },
   {
    "id": "q129",
@@ -1957,7 +2185,8 @@
     "Nikdo nemá trest, míč vrátíš"
    ],
    "answer": 3,
-   "explanation": "Ve hře na rány je spoluhráč vnější vliv. Trest nikdo nedostane a míč vrátíš na původní místo."
+   "explanation": "Ve hře na rány je spoluhráč vnější vliv. Trest nikdo nedostane a míč vrátíš na původní místo.",
+   "photo": "img/foto/q129.jpg"
   },
   {
    "id": "q130",
@@ -1972,7 +2201,8 @@
     "Nikdo nemá trest, míč vrátíš"
    ],
    "answer": 1,
-   "explanation": "Ve hře na jamky dostane soupeř za pohnutí tvým míčem jednu trestnou ránu, pokud nejde o výjimku (například hledání). Míč vrátíš."
+   "explanation": "Ve hře na jamky dostane soupeř za pohnutí tvým míčem jednu trestnou ránu, pokud nejde o výjimku (například hledání). Míč vrátíš.",
+   "photo": "img/foto/q130.jpg"
   },
   {
    "id": "q131",
@@ -1987,7 +2217,8 @@
     "Ránu musíš bez trestu opakovat"
    ],
    "answer": 1,
-   "explanation": "Když se míč pohne až po začátku nápřahu a ty ránu dokončíš, hraješ dál odtamtud, kde se zastavil. Za vítr trest nedostaneš."
+   "explanation": "Když se míč pohne až po začátku nápřahu a ty ránu dokončíš, hraješ dál odtamtud, kde se zastavil. Za vítr trest nedostaneš.",
+   "photo": "img/foto/q131.jpg"
   },
   {
    "id": "q132",
@@ -2002,7 +2233,8 @@
     "Hraješ z nového místa s trestnou ranou"
    ],
    "answer": 0,
-   "explanation": "Když míčem pohnou přírodní síly, jako vítr nebo voda, trest není a hraješ ho z nového místa."
+   "explanation": "Když míčem pohnou přírodní síly, jako vítr nebo voda, trest není a hraješ ho z nového místa.",
+   "photo": "img/foto/q132.jpg"
   },
   {
    "id": "q133",
@@ -2017,7 +2249,8 @@
     "Bez trestu ho vrátíš"
    ],
    "answer": 0,
-   "explanation": "Když mimo green pohneš míčem při odstraňování volného přírodního předmětu, je to jedna trestná rána a míč vrátíš."
+   "explanation": "Když mimo green pohneš míčem při odstraňování volného přírodního předmětu, je to jedna trestná rána a míč vrátíš.",
+   "photo": "img/foto/q133.jpg"
   },
   {
    "id": "q134",
@@ -2032,7 +2265,10 @@
     "Hraješ z nového místa"
    ],
    "answer": 2,
-   "explanation": "Plechovka je pohyblivá závada. Když se při jejím odstraňování pohne míč, trest není a míč se vrací. U šišky by to byla trestná rána."
+   "explanation": "Plechovka je pohyblivá závada. Když se při jejím odstraňování pohne míč, trest není a míč se vrací. U šišky by to byla trestná rána.",
+   "photo": "img/foto/q134.jpg",
+   "rulesFigurePage": 136,
+   "rulesFigureTitle": "Diagram #1 15.2a – Míč se pohne při odstranění pohyblivé závady"
   },
   {
    "id": "q135",
@@ -2047,7 +2283,8 @@
     "Bez trestu, jen pokračuješ svým míčem"
    ],
    "answer": 0,
-   "explanation": "Za nesprávný míč jsou ve hře na rány dvě trestné rány a chybu musíš napravit hrou svým míčem."
+   "explanation": "Za nesprávný míč jsou ve hře na rány dvě trestné rány a chybu musíš napravit hrou svým míčem.",
+   "photo": "img/foto/q135.jpg"
   },
   {
    "id": "q136",
@@ -2062,7 +2299,8 @@
     "Jen obě rány cizím míčem, bez trestu"
    ],
    "answer": 0,
-   "explanation": "Rány zahrané nesprávným míčem se nepočítají. Připíšeš si jen dvě trestné rány a pokračuješ svým míčem."
+   "explanation": "Rány zahrané nesprávným míčem se nepočítají. Připíšeš si jen dvě trestné rány a pokračuješ svým míčem.",
+   "photo": "img/foto/q136.jpg"
   },
   {
    "id": "q137",
@@ -2077,7 +2315,8 @@
     "Dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Ve hře na jamky je všeobecným trestem ztráta jamky."
+   "explanation": "Ve hře na jamky je všeobecným trestem ztráta jamky.",
+   "photo": "img/foto/q137.jpg"
   },
   {
    "id": "q138",
@@ -2092,7 +2331,8 @@
     "Jedna trestná rána"
    ],
    "answer": 1,
-   "explanation": "Je to hra z nesprávného místa, za kterou jsou dvě trestné rány. Nešlo o závažné porušení, takže hraješ dál tím míčem."
+   "explanation": "Je to hra z nesprávného místa, za kterou jsou dvě trestné rány. Nešlo o závažné porušení, takže hraješ dál tím míčem.",
+   "photo": "img/foto/q138.jpg"
   },
   {
    "id": "q139",
@@ -2107,7 +2347,8 @@
     "Jen jedna trestná rána"
    ],
    "answer": 0,
-   "explanation": "Je to závažné porušení. Kromě dvou trestných ran musíš chybu napravit hrou ze správného místa, jinak tě před odpalem na další jamce čeká diskvalifikace."
+   "explanation": "Je to závažné porušení. Kromě dvou trestných ran musíš chybu napravit hrou ze správného místa, jinak tě před odpalem na další jamce čeká diskvalifikace.",
+   "photo": "img/foto/q139.jpg"
   },
   {
    "id": "q140",
@@ -2122,7 +2363,8 @@
     "Bez trestu hraješ, jak leží"
    ],
    "answer": 3,
-   "explanation": "Od roku 2019 se nikdo netrestá, když míč náhodou trefí hráče nebo jeho výstroj. Hraješ, jak leží."
+   "explanation": "Od roku 2019 se nikdo netrestá, když míč náhodou trefí hráče nebo jeho výstroj. Hraješ, jak leží.",
+   "photo": "img/foto/q140.jpg"
   },
   {
    "id": "q141",
@@ -2137,7 +2379,8 @@
     "Bez trestu dropneš pod místem, kde se na vozíku zastavil"
    ],
    "answer": 3,
-   "explanation": "Když se míč zastaví na pohybujícím se vnějším vlivu, dropneš ho bez trestu do délky hole od místa pod bodem, kde se poprvé zastavil."
+   "explanation": "Když se míč zastaví na pohybujícím se vnějším vlivu, dropneš ho bez trestu do délky hole od místa pod bodem, kde se poprvé zastavil.",
+   "photo": "img/foto/q141.jpg"
   },
   {
    "id": "q142",
@@ -2152,7 +2395,10 @@
     "Rozhodčí"
    ],
    "answer": 2,
-   "explanation": "Výsledky zapisuje zapisovatel. Ty si je máš kontrolovat a lístek podepsat."
+   "explanation": "Výsledky zapisuje zapisovatel. Ty si je máš kontrolovat a lístek podepsat.",
+   "photo": "img/foto/q142.jpg",
+   "rulesFigurePage": 33,
+   "rulesFigureTitle": "Diagram 3.3b – Odpovědnost při zapisování"
   },
   {
    "id": "q143",
@@ -2167,7 +2413,10 @@
     "Diskvalifikace"
    ],
    "answer": 3,
-   "explanation": "Když odevzdáš nižší výsledek na jamce, než jsi skutečně zahrál, jsi diskvalifikován."
+   "explanation": "Když odevzdáš nižší výsledek na jamce, než jsi skutečně zahrál, jsi diskvalifikován.",
+   "photo": "img/foto/q143.jpg",
+   "rulesFigurePage": 33,
+   "rulesFigureTitle": "Diagram 3.3b – Odpovědnost při zapisování"
   },
   {
    "id": "q144",
@@ -2182,7 +2431,10 @@
     "Diskvalifikace"
    ],
    "answer": 1,
-   "explanation": "Vyšší odevzdaný výsledek na jamce platí a už se neopravuje."
+   "explanation": "Vyšší odevzdaný výsledek na jamce platí a už se neopravuje.",
+   "photo": "img/foto/q144.jpg",
+   "rulesFigurePage": 33,
+   "rulesFigureTitle": "Diagram 3.3b – Odpovědnost při zapisování"
   },
   {
    "id": "q145",
@@ -2197,7 +2449,10 @@
     "Připíšou se ti čtyři rány"
    ],
    "answer": 1,
-   "explanation": "Když lístek obsahuje nižší výsledek jen kvůli trestu, o kterém jsi nevěděl, diskvalifikován nejsi. Výbor trestné rány připíše."
+   "explanation": "Když lístek obsahuje nižší výsledek jen kvůli trestu, o kterém jsi nevěděl, diskvalifikován nejsi. Výbor trestné rány připíše.",
+   "photo": "img/foto/q145.jpg",
+   "rulesFigurePage": 33,
+   "rulesFigureTitle": "Diagram 3.3b – Odpovědnost při zapisování"
   },
   {
    "id": "q146",
@@ -2212,7 +2467,8 @@
     "1"
    ],
    "answer": 3,
-   "explanation": "Bogey je 1 bod, par 2 body, birdie 3 body. Za dvě a víc ran nad par je 0."
+   "explanation": "Bogey je 1 bod, par 2 body, birdie 3 body. Za dvě a víc ran nad par je 0.",
+   "photo": "img/foto/q146.jpg"
   },
   {
    "id": "q147",
@@ -2227,7 +2483,8 @@
     "Zvednout a připsat si dvě rány"
    ],
    "answer": 0,
-   "explanation": "Ve stablefordu se za nedohranou jamku nediskvalifikuje, prostě na ní máš 0 bodů. Kvůli tempu hry se doporučuje zvednout."
+   "explanation": "Ve stablefordu se za nedohranou jamku nediskvalifikuje, prostě na ní máš 0 bodů. Kvůli tempu hry se doporučuje zvednout.",
+   "photo": "img/foto/q147.jpg"
   },
   {
    "id": "q148",
@@ -2242,7 +2499,8 @@
     "Dostaneš dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Ve hře na rány musíš dohrát každou jamku. Když chybu neopravíš před odpalem na další jamce, jsi diskvalifikován."
+   "explanation": "Ve hře na rány musíš dohrát každou jamku. Když chybu neopravíš před odpalem na další jamce, jsi diskvalifikován.",
+   "photo": "img/foto/q148.jpg"
   },
   {
    "id": "q149",
@@ -2257,7 +2515,8 @@
     "Zahraješ ji alespoň na par"
    ],
    "answer": 0,
-   "explanation": "Jamku vyhraje ten, kdo ji dohraje na méně ran včetně trestných. Jamku vyhraješ i tehdy, když ji soupeř vzdá nebo prohraje trestem."
+   "explanation": "Jamku vyhraje ten, kdo ji dohraje na méně ran včetně trestných. Jamku vyhraješ i tehdy, když ji soupeř vzdá nebo prohraje trestem.",
+   "photo": "img/foto/q149.jpg"
   },
   {
    "id": "q150",
@@ -2270,7 +2529,8 @@
     "Ne"
    ],
    "answer": 1,
-   "explanation": "Darování je konečné. Nejde ho odmítnout ani vzít zpět."
+   "explanation": "Darování je konečné. Nejde ho odmítnout ani vzít zpět.",
+   "photo": "img/foto/q150.jpg"
   },
   {
    "id": "q151",
@@ -2285,7 +2545,8 @@
     "Dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Špatný počet ran musíš opravit, než soupeř zahraje další ránu. Jinak prohráváš jamku."
+   "explanation": "Špatný počet ran musíš opravit, než soupeř zahraje další ránu. Jinak prohráváš jamku.",
+   "photo": "img/foto/q151.jpg"
   },
   {
    "id": "q152",
@@ -2300,7 +2561,8 @@
     "Nic, pořadí se ve hře na jamky neřeší"
    ],
    "answer": 0,
-   "explanation": "Hra mimo pořadí se ve hře na jamky netrestá, ale soupeřovu ránu smíš hned zrušit a on ji pak zahraje znovu ve správném pořadí."
+   "explanation": "Hra mimo pořadí se ve hře na jamky netrestá, ale soupeřovu ránu smíš hned zrušit a on ji pak zahraje znovu ve správném pořadí.",
+   "photo": "img/foto/q152.jpg"
   },
   {
    "id": "q153",
@@ -2315,7 +2577,8 @@
     "Nic, cvičit na hřišti se smí"
    ],
    "answer": 1,
-   "explanation": "Ve hře na rány nesmíš v den soutěže před kolem cvičit na hřišti. Za první takovou ránu dostaneš dvě trestné rány na první jamce, za další už diskvalifikaci. Smíš jen patovat a přihrávat u prvního odpaliště a cvičit na cvičných plochách."
+   "explanation": "Ve hře na rány nesmíš v den soutěže před kolem cvičit na hřišti. Za první takovou ránu dostaneš dvě trestné rány na první jamce, za další už diskvalifikaci. Smíš jen patovat a přihrávat u prvního odpaliště a cvičit na cvičných plochách.",
+   "photo": "img/foto/q153.jpg"
   },
   {
    "id": "q154",
@@ -2330,7 +2593,8 @@
     "Nic, na hůl se zeptat smíš"
    ],
    "answer": 1,
-   "explanation": "Ptát se na hůl je žádost o radu. O radu smíš požádat jen svého nosiče, jinak je to všeobecný trest."
+   "explanation": "Ptát se na hůl je žádost o radu. O radu smíš požádat jen svého nosiče, jinak je to všeobecný trest.",
+   "photo": "img/foto/q154.jpg"
   },
   {
    "id": "q155",
@@ -2345,7 +2609,8 @@
     "Ne, je to rada, dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Vzdálenost je veřejně dostupná informace, ne rada. Stejně tak poloha jamky, bankrů nebo pravidla."
+   "explanation": "Vzdálenost je veřejně dostupná informace, ne rada. Stejně tak poloha jamky, bankrů nebo pravidla.",
+   "photo": "img/foto/q155.jpg"
   },
   {
    "id": "q156",
@@ -2360,7 +2625,8 @@
     "Jsi diskvalifikován"
    ],
    "answer": 3,
-   "explanation": "Hrát z nesprávného odpaliště jsou dvě trestné rány a chybu musíš napravit hrou ze správného odpaliště. Když to neuděláš před odpalem na další jamce, jsi diskvalifikován."
+   "explanation": "Hrát z nesprávného odpaliště jsou dvě trestné rány a chybu musíš napravit hrou ze správného odpaliště. Když to neuděláš před odpalem na další jamce, jsi diskvalifikován.",
+   "photo": "img/foto/q156.jpg"
   },
   {
    "id": "q157",
@@ -2375,7 +2641,8 @@
     "Jen když to výbor vyznačí jako půdu v opravě"
    ],
    "answer": 1,
-   "explanation": "Od roku 2019 je díra po zvířeti jakákoli díra vyhrabaná zvířetem, kromě červů a hmyzu. Dřív platila úleva jen od „hrabavých“ zvířat a pes mezi ně nepatřil. Úleva podle pravidla 16.1b."
+   "explanation": "Od roku 2019 je díra po zvířeti jakákoli díra vyhrabaná zvířetem, kromě červů a hmyzu. Dřív platila úleva jen od „hrabavých“ zvířat a pes mezi ně nepatřil. Úleva podle pravidla 16.1b.",
+   "photo": "img/foto/q157.jpg"
   },
   {
    "id": "q158",
@@ -2390,7 +2657,8 @@
     "Bez trestu, míč hraješ, jak leží"
    ],
    "answer": 3,
-   "explanation": "Když míč náhodou trefí obsluhovaný nebo vytažený praporek či osobu, která ho obsluhuje, není to trestné a hraješ, jak leží. Do roku 2018 to byly dvě trestné rány."
+   "explanation": "Když míč náhodou trefí obsluhovaný nebo vytažený praporek či osobu, která ho obsluhuje, není to trestné a hraješ, jak leží. Do roku 2018 to byly dvě trestné rány.",
+   "photo": "img/foto/q158.jpg"
   },
   {
    "id": "q159",
@@ -2405,7 +2673,8 @@
     "Dvě trestné rány pro spoluhráče, měl míč označit"
    ],
    "answer": 0,
-   "explanation": "Dvě trestné rány jsou jen tehdy, když oba míče ležely před ranou na greenu. Tvůj míč hraješ, jak leží, a trefený míč se vrací na původní místo (pravidlo 9.6)."
+   "explanation": "Dvě trestné rány jsou jen tehdy, když oba míče ležely před ranou na greenu. Tvůj míč hraješ, jak leží, a trefený míč se vrací na původní místo (pravidlo 9.6).",
+   "photo": "img/foto/q159.jpg"
   },
   {
    "id": "q160",
@@ -2420,7 +2689,8 @@
     "Bez trestu, pokud se nepohne míč"
    ],
    "answer": 2,
-   "explanation": "Volný kámen smíš v trestné oblasti odstranit, ale nesmíš ho přesunout na určité místo, abys z něj měl postoj. Je to všeobecný trest. Dotknout se holí vody ti od roku 2019 nevadí (pravidlo 17.1b)."
+   "explanation": "Volný kámen smíš v trestné oblasti odstranit, ale nesmíš ho přesunout na určité místo, abys z něj měl postoj. Je to všeobecný trest. Dotknout se holí vody ti od roku 2019 nevadí (pravidlo 17.1b).",
+   "photo": "img/foto/q160.jpg"
   },
   {
    "id": "q161",
@@ -2435,7 +2705,8 @@
     "Jen beztrestně dropnout do délky hole"
    ],
    "answer": 0,
-   "explanation": "Kolíky trestné oblasti jsou závady, takže kolík, který jde vytáhnout, smíš beztrestně odstranit (pravidlo 15.2a). Výjimkou jsou bílé hraniční kolíky, ty se vytahovat nesmí."
+   "explanation": "Kolíky trestné oblasti jsou závady, takže kolík, který jde vytáhnout, smíš beztrestně odstranit (pravidlo 15.2a). Výjimkou jsou bílé hraniční kolíky, ty se vytahovat nesmí.",
+   "photo": "img/foto/q161.jpg"
   },
   {
    "id": "q162",
@@ -2450,7 +2721,8 @@
     "Odsunout ho bez trestu"
    ],
    "answer": 3,
-   "explanation": "Zákaz hýbat kameny platí jen pro odpaliště, ze kterého právě hraješ. Jinde jsou to pohyblivé závady a smíš je beztrestně odsunout (pravidlo 15.2a). Po ráně je slušné je vrátit."
+   "explanation": "Zákaz hýbat kameny platí jen pro odpaliště, ze kterého právě hraješ. Jinde jsou to pohyblivé závady a smíš je beztrestně odsunout (pravidlo 15.2a). Po ráně je slušné je vrátit.",
+   "photo": "img/foto/q162.jpg"
   },
   {
    "id": "q163",
@@ -2465,7 +2737,10 @@
     "Úleva jen s jednou trestnou ranou"
    ],
    "answer": 1,
-   "explanation": "Nesprávný green překáží, i když zasahuje jen do postoje nebo švihu. Úleva je pak povinná a beztrestná. Dropneš do délky hole od nejbližšího místa úplné úlevy, ne blíž k jamce."
+   "explanation": "Nesprávný green překáží, i když zasahuje jen do postoje nebo švihu. Úleva je pak povinná a beztrestná. Dropneš do délky hole od nejbližšího místa úplné úlevy, ne blíž k jamce.",
+   "photo": "img/foto/q163.jpg",
+   "rulesFigurePage": 109,
+   "rulesFigureTitle": "Diagram 13.1f – Úleva od nesprávného jamkoviště"
   },
   {
    "id": "q164",
@@ -2480,7 +2755,8 @@
     "Smíš to až po ráně, jinak dvě trestné rány"
    ],
    "answer": 2,
-   "explanation": "Uhladit písek v rámci péče o hřiště smíš i před ranou. Nesmíš si tím ale zlepšit podmínky pro svou ránu ani zkoumat, jaký je písek."
+   "explanation": "Uhladit písek v rámci péče o hřiště smíš i před ranou. Nesmíš si tím ale zlepšit podmínky pro svou ránu ani zkoumat, jaký je písek.",
+   "photo": "img/foto/q164.jpg"
   },
   {
    "id": "q165",
@@ -2495,7 +2771,8 @@
     "Jedna trestná rána"
    ],
    "answer": 0,
-   "explanation": "Trestné je dotknout se holí písku těsně u míče, při cvičném švihu nebo nápřahu a zkoumat písek. Odložit hole nebo se opřít o hůl kvůli rovnováze se smí."
+   "explanation": "Trestné je dotknout se holí písku těsně u míče, při cvičném švihu nebo nápřahu a zkoumat písek. Odložit hole nebo se opřít o hůl kvůli rovnováze se smí.",
+   "photo": "img/foto/q165.jpg"
   },
   {
    "id": "q166",
@@ -2510,7 +2787,8 @@
     "Bez trestu, pokud je míč opravdu prasklý"
    ],
    "answer": 1,
-   "explanation": "Míč zvednutý kvůli kontrole poškození se mimo green nesmí čistit. Za očištění je jedna trestná rána."
+   "explanation": "Míč zvednutý kvůli kontrole poškození se mimo green nesmí čistit. Za očištění je jedna trestná rána.",
+   "photo": "img/foto/q166.jpg"
   },
   {
    "id": "q167",
@@ -2525,7 +2803,8 @@
     "Jedna trestná rána"
    ],
    "answer": 3,
-   "explanation": "Při identifikaci smíš míč očistit jen tolik, kolik je nutné k jeho poznání. Za celé očištění je jedna trestná rána a míč pak vrátíš na místo."
+   "explanation": "Při identifikaci smíš míč očistit jen tolik, kolik je nutné k jeho poznání. Za celé očištění je jedna trestná rána a míč pak vrátíš na místo.",
+   "photo": "img/foto/q167.jpg"
   },
   {
    "id": "q168",
@@ -2540,7 +2819,8 @@
     "Bez trestu, zvednout tě požádal spoluhráč"
    ],
    "answer": 1,
-   "explanation": "Míč zvednutý proto, že překáží jinému hráči, se mimo green čistit nesmí. Za očištění je jedna trestná rána. Ve hře na rány ho můžeš místo zvednutí také zahrát."
+   "explanation": "Míč zvednutý proto, že překáží jinému hráči, se mimo green čistit nesmí. Za očištění je jedna trestná rána. Ve hře na rány ho můžeš místo zvednutí také zahrát.",
+   "photo": "img/foto/q168.jpg"
   },
   {
    "id": "q169",
@@ -2555,7 +2835,10 @@
     "Dropneš ho na dropzónu bez trestu"
    ],
    "answer": 0,
-   "explanation": "Úleva z místa předchozí rány stojí jednu trestnou ránu a oblast úlevy musí být ve stejné oblasti hřiště jako to místo, tedy v bankru. Kdybys předtím hrál z greenu, míč bys na místo položil (pravidlo 14.6c)."
+   "explanation": "Úleva z místa předchozí rány stojí jednu trestnou ránu a oblast úlevy musí být ve stejné oblasti hřiště jako to místo, tedy v bankru. Kdybys předtím hrál z greenu, míč bys na místo položil (pravidlo 14.6c).",
+   "photo": "img/foto/q169.jpg",
+   "rulesFigurePage": 129,
+   "rulesFigureTitle": "Diagram 14.6 – Hraní z místa předchozí rány"
   },
   {
    "id": "q170",
@@ -2570,7 +2853,8 @@
     "Dohrát jamku a odpálit na další"
    ],
    "answer": 2,
-   "explanation": "Při běžném přerušení smíte rozehranou jamku dohrát, další už ne. Při okamžitém přerušení, třeba kvůli bleskům, nesmíte zahrát už žádnou ránu, jinak hrozí diskvalifikace."
+   "explanation": "Při běžném přerušení smíte rozehranou jamku dohrát, další už ne. Při okamžitém přerušení, třeba kvůli bleskům, nesmíte zahrát už žádnou ránu, jinak hrozí diskvalifikace.",
+   "photo": "img/foto/q170.jpg"
   },
   {
    "id": "q171",
@@ -2585,7 +2869,8 @@
     "Dropneš ho do délky hole od nové polohy"
    ],
    "answer": 0,
-   "explanation": "Když se míč pohne během přerušení hry, i vlivem větru, vracíš ho bez trestu na původní místo (smíš i jiným míčem). Jinak by platilo, že míč odfouknutý větrem se hraje, jak leží (pravidlo 9.3)."
+   "explanation": "Když se míč pohne během přerušení hry, i vlivem větru, vracíš ho bez trestu na původní místo (smíš i jiným míčem). Jinak by platilo, že míč odfouknutý větrem se hraje, jak leží (pravidlo 9.3).",
+   "photo": "img/foto/q171.jpg"
   },
   {
    "id": "q172",
@@ -2600,7 +2885,10 @@
     "Nic, to je práce výboru"
    ],
    "answer": 3,
-   "explanation": "Od roku 2023 hráč neodpovídá za hendikep ani za součet, to má na starosti výbor. Ty odpovídáš za správné rány na jednotlivých jamkách."
+   "explanation": "Od roku 2023 hráč neodpovídá za hendikep ani za součet, to má na starosti výbor. Ty odpovídáš za správné rány na jednotlivých jamkách.",
+   "photo": "img/foto/q172.jpg",
+   "rulesFigurePage": 33,
+   "rulesFigureTitle": "Diagram 3.3b – Odpovědnost při zapisování"
   },
   {
    "id": "q173",
@@ -2615,7 +2903,8 @@
     "Je to ztracený míč, hraješ znovu s trestnou ranou"
    ],
    "answer": 2,
-   "explanation": "Když míč v pohybu někdo úmyslně zastaví, odhadneš, kde by se zastavil, a bez trestu dropneš do délky hole od toho místa. Kdyby skončil v autu, hraješ znovu z místa předchozí rány. Po ráně z greenu se rána opakuje."
+   "explanation": "Když míč v pohybu někdo úmyslně zastaví, odhadneš, kde by se zastavil, a bez trestu dropneš do délky hole od toho místa. Kdyby skončil v autu, hraješ znovu z místa předchozí rány. Po ráně z greenu se rána opakuje.",
+   "photo": "img/foto/q173.jpg"
   },
   {
    "id": "q174",
@@ -2630,7 +2919,10 @@
     "Je to hra z nesprávného místa"
    ],
    "answer": 1,
-   "explanation": "Od roku 2023 je oblastí úlevy délka hole libovolným směrem od místa, kde se míč při dropu dotkl spojnice. Jen nesmí být blíž jamce než místo, kde míč naposledy přešel okraj trestné oblasti."
+   "explanation": "Od roku 2023 je oblastí úlevy délka hole libovolným směrem od místa, kde se míč při dropu dotkl spojnice. Jen nesmí být blíž jamce než místo, kde míč naposledy přešel okraj trestné oblasti.",
+   "photo": "img/foto/q174.jpg",
+   "rulesFigurePage": 125,
+   "rulesFigureTitle": "Diagram #2 14.3c – Spuštění při úlevě dozadu po spojnici"
   },
   {
    "id": "q175",
@@ -2645,7 +2937,8 @@
     "Je to provizorní míč, ale stojí trestnou ránu"
    ],
    "answer": 0,
-   "explanation": "Provizorní míč smíš zahrát, dokud původní míč není nalezen ani ztracen, tedy i po návratu z hledání. Před rokem 2019 se to nesmělo. Na hledání máš pořád jen 3 minuty."
+   "explanation": "Provizorní míč smíš zahrát, dokud původní míč není nalezen ani ztracen, tedy i po návratu z hledání. Před rokem 2019 se to nesmělo. Na hledání máš pořád jen 3 minuty.",
+   "photo": "img/foto/q175.jpg"
   },
   {
    "id": "q176",
@@ -2660,7 +2953,8 @@
     "Nikde, při kanónovém startu se necvičí"
    ],
    "answer": 2,
-   "explanation": "Před kolem smíš patovat a přihrávat jen na svém prvním odpališti nebo u něj a na cvičných plochách. Pat na greenu jiné jamky je cvičení na hřišti a za první takovou ránu dostaneš dvě trestné rány."
+   "explanation": "Před kolem smíš patovat a přihrávat jen na svém prvním odpališti nebo u něj a na cvičných plochách. Pat na greenu jiné jamky je cvičení na hřišti a za první takovou ránu dostaneš dvě trestné rány.",
+   "photo": "img/foto/q176.jpg"
   },
   {
    "id": "q177",
@@ -2675,7 +2969,8 @@
     "Dvě trestné rány dostane jen spoluhráč"
    ],
    "answer": 1,
-   "explanation": "Hra mimo pořadí se netrestá, ale dohoda o ní kvůli výhodě ano. Oba dostanete všeobecný trest, tedy dvě trestné rány. Diskvalifikace to není."
+   "explanation": "Hra mimo pořadí se netrestá, ale dohoda o ní kvůli výhodě ano. Oba dostanete všeobecný trest, tedy dvě trestné rány. Diskvalifikace to není.",
+   "photo": "img/foto/q177.jpg"
   },
   {
    "id": "q178",
@@ -2690,7 +2985,8 @@
     "Dvě trestné rány, musíš říct jen „dohrávám“"
    ],
    "answer": 2,
-   "explanation": "Rada je jen to, co tě má ovlivnit při volbě hole, provedení rány nebo rozhodování, jak hrát. Otázka, jestli smíš dohrát, mezi to nepatří."
+   "explanation": "Rada je jen to, co tě má ovlivnit při volbě hole, provedení rány nebo rozhodování, jak hrát. Otázka, jestli smíš dohrát, mezi to nepatří.",
+   "photo": "img/foto/q178.jpg"
   }
  ]
 }

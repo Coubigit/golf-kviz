@@ -38,3 +38,8 @@ textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px
 .rv-nav{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .rv-danger{color:var(--bad);border-color:var(--bad)}
 #export-text{font-size:.85rem;font-family:ui-monospace,Menlo,monospace}
+.rv-photo{margin:10px 0 14px;padding:0}
+.rv-photo-cap{font-size:.82rem;color:var(--muted);margin-bottom:4px}
+.rv-photo img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);background:#e7e4dc}
+.rv-photo-links{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 12px;margin:6px 0 0;font-size:.9rem}
+.rv-photo-links a{color:var(--accent);font-weight:600}

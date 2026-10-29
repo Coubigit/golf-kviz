@@ -2,6 +2,8 @@
 (function () {
   "use strict";
   var LS = "golfquiz.revize.v1";
+  // Oficiální PDF Pravidel golfu 2023 (ČGF). Obrázky z pravidel do repa nedáváme (autorská práva), jen odkaz na stránku.
+  var RULES_PDF = "http://fls.cgf.cz/DBFL/CGSRedaction/Documents/Pravidla%20golfu%202023%20-%20v230508.pdf";
   var DIFF = { 1: "lehká", 2: "střední", 3: "záludná" };
   var RULE_NAMES = { 1: "Základy hry a chování", 2: "Hřiště", 3: "Soutěž", 4: "Výstroj", 5: "Hraní kola", 6: "Hraní jamky",
     7: "Hledání míče", 8: "Hřiště hraj, jak je", 9: "Míč hraj, jak leží", 10: "Příprava na ránu, rada a nosič",
@@ -125,6 +127,7 @@
     $("q-diff").textContent = (DIFF[q.difficulty] || ("obtížnost " + q.difficulty)) + (q.weight > 1 ? " · ★ častěji v testu" : "");
     $("q-changed").hidden = !isChanged(q);
     setImg($("q-img"), q.image, q.imageAlt);
+    renderPhoto(q);
     $("q-text").textContent = q.question;
     $("t-guess").checked = st.guess;
     renderOptions(q);
@@ -135,6 +138,22 @@
     $("btn-prev").disabled = pos <= 0;
     $("btn-next").disabled = pos >= order.length - 1;
     window.scrollTo(0, 0);
+  }
+  function renderPhoto(q) {
+    var box = $("q-photo-box"), a = $("q-rules-fig");
+    if (!q.photo) { box.hidden = true; return; }
+    var im = $("q-photo"); im.src = "../" + q.photo; im.alt = "Ilustrační fotka k otázce " + q.id; box.hidden = false;
+    if (q.rulesFigurePage) {
+      a.href = RULES_PDF + "#page=" + q.rulesFigurePage;
+      a.textContent = "Obrázek v pravidlech (str. " + q.rulesFigurePage + ")";
+      a.title = q.rulesFigureTitle || ""; a.hidden = false; $("q-no-fig").hidden = true;
+    } else { a.hidden = true; a.removeAttribute("href"); $("q-no-fig").hidden = false; }
+  }
+  function photoNote() {
+    var c = $("comment");
+    if (!/(^|\n)Fotka: /.test(c.value)) c.value = (c.value.trim() ? c.value.replace(/\s+$/, "") + "\n" : "") + "Fotka: ";
+    c.focus(); c.setSelectionRange(c.value.length, c.value.length);
+    c.dispatchEvent(new Event("input"));
   }
   function lbl(q, i) { return q.options.length === 2 ? "„" + q.options[i] + "“" : "ABCD"[i]; }
   function setImg(el, src, alt) { if (src) { el.src = "../" + src; el.alt = alt || ""; el.hidden = false; } else { el.hidden = true; el.removeAttribute("src"); } }
@@ -275,6 +294,7 @@
     if (!confirm("Opravdu smazat všechny tvoje kontroly a poznámky? Nejdřív si radši stáhni zálohu.")) return;
     st.items = {}; persist(); updateCounts(); $("export-text").value = exportText(); $("import-info").textContent = "Smazáno.";
   });
+  $("btn-photo-note").addEventListener("click", photoNote);
   window.addEventListener("hashchange", route);
 
   fetch("../data/questions.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (data) {
